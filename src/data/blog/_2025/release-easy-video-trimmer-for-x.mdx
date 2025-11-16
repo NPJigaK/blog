@@ -1,0 +1,138 @@
+---
+pubDatetime: 2025-05-01T18:00:00.000Z
+modDatetime: 2025-11-26T18:00:00.000Z
+title: Twitterのビデオクリップ機能をChrome拡張で再現してみた
+featured: true
+tags:
+  - Google Chrome Extensions
+  - X (ex-Twitter)
+  - 個人開発
+  - JavaScript
+  - 雑記
+category: 技術関連
+description: ああ
+---
+
+旧Twitterでは動画のクリッピング機能がありました。
+ゲームのクリップをするのにブラウザから出来てとても便利だったのですが、いつの日か機能が削除されてしまいました。
+
+無くなったのなら作ればよい、ということでchrome拡張機能を使って作ってみます。
+どうせなら新しい技術を学びたいのでffmpeg wasmを使ったフロントエンドの動画加工処理を実装しました。
+
+
+## 目次
+
+## 設計
+
+全体のワークフローのシーケンス図はこんな感じ。
+![easy-video-trimmer-sequence](@/assets/images/blog/2025/easy-video-trimmer-sequence.png)
+
+## 実装に苦労したポイント
+
+### `X.com` に加工した動画を直接添付したい
+こだわりポイントその１。
+
+毎回「トリミングした MP4 をいったんダウンロード → 手動で添付」というフローになるのを避けたかったため、
+トリミング完了後の MP4 を、そのまま X の投稿フォーム（`<input data-testid="fileInput">`）に突っ込む仕組みにしました。
+
+具体的には、`chrome.scripting.executeScript` を `world: "MAIN"` で実行し、
+ページ側コンテキストの中で `input[data-testid="fileInput"]` に DataTransfer 経由で File をセットしています。
+
+Chrome 拡張のコンテンツスクリプトは isolated world で動作するため、ページ側の JavaScript とは実行コンテキストが分離されています。
+さらに X.com は CSP がかなり厳しく、任意の `<script>` をインラインで差し込むような手も取りづらいです。
+そこで executeScript を使って「メインワールド側で処理を行う」形にすることで、X 側の DOM / イベントハンドラと素直に連携できるようにしています。
+
+
+```javascript
+const [result] = await chrome.scripting.executeScript({
+  target: { tabId },
+  world: "MAIN",
+  args: [base64, fileName, "video/mp4"],
+  func: (b64, name, type) => {
+    // base64 → Uint8Array
+    const bin = atob(b64);
+    const bytes = new Uint8Array(bin.length);
+    for (let i = 0; i < bin.length; i++) {
+      bytes[i] = bin.charCodeAt(i);
+    }
+
+    // executeScript の引数は構造化複製できる必要があるため、
+    // トリミング済みの Blob はいったん base64 に変換してから渡し、
+    // メインワールド側で Blob / File に復元しています。
+    const blob = new Blob([bytes], { type });
+    const file = new File([blob], name, { type });
+
+    // DataTransfer 経由で <input type="file"> に差し込む
+    const dt = new DataTransfer();
+    dt.items.add(file);
+
+    const input =
+      document.querySelector('input[data-testid="fileInput"]') ||
+      document.querySelector('input[type="file"][accept*="video"]');
+
+    if (!input) {
+      return { attached: false, reason: "Tweet file input not found" };
+    }
+
+    input.files = dt.files;
+    input.dispatchEvent(new Event("change", { bubbles: true }));
+    input.dispatchEvent(new Event("input", { bubbles: true }));
+
+    return { attached: true };
+  },
+});
+```
+
+これに伴い、manifest.json には以下のように権限を追加しています。
+```json
+"permissions": ["scripting"]
+"host_permissions": ["https://x.com/*"]
+```
+
+### ffmpeg.wasm でエンコードすると遅すぎる
+まず一番のボトルネックは、WASM 版 ffmpeg のエンコード速度がネイティブ版と比べて桁違いに遅いことでした。
+
+| タスク                           | ネイティブ ffmpeg 6.1 | ffmpeg.wasm 0.12.x |
+| ----------------------------- | ---------------- | ------------------ |
+| 720p MPEG-2 → H.264（約 4 分の動画） | 約 500 fps        | 約 40 fps           |
+
+遅くなる根本原因はシンプルに言うと次の 2 点です。
+1. WASM からは GPU エンコーダが使えない
+   - ffmpeg.wasm はブラウザ上の WebAssembly なので、
+NVENC / QuickSync / VideoToolbox などのハードウェアエンコーダにアクセスできない。
+   - そのため、エンコード速度はCPUのスペック依存になる
+2. マルチスレッドにも制約がある
+   - 4 thread までのバグがある
+   - CPU が強くてもフルで使えない
+
+この結果として、長尺の動画をエンコードしようとすると 待ち時間が現実的でないレベルに伸びる。
+日常的に使うツールとしては厳しい。
+
+解決策として、WebCodecs + ffmpeg.wasm のハイブリッド構成にした。
+
+ただし、この構成で動かすにはいくつかポイントがあった。
+先頭数秒のフレームがカクつく問題。
+ffmpeg.wasm の -c copy でトリムした MP4 を
+WebCodecs で再エンコードすると、
+クリップの最初の 1〜2 秒だけフレームがひどくカクつく／ブロックノイズだらけになる。
+ffmpeg.wasm で
+```sh
+ffmpeg -ss ... -i input.mp4 -to ... -c copy -copyinkf trimmed.mp4
+```
+のように copy するとmid-GOP から始まる確率が高く、`<video>` の最初の数フレームが壊れる。
+その壊れた絵がそのまま WebCodecs で再エンコードされるので壊れる。
+
+ffmpeg.wasm のみで copy -> エンコードした場合は壊れない理由は～。
+
+```sh
+# 以前（出力側 seek、キーフレーム寄せなし）
+ffmpeg -i input.mp4 -ss 00:36:18 -to 00:39:50 -c copy out.mp4
+
+# 修正後（入力側 seek + キーフレーム寄せ + copyinkf）
+ffmpeg -ss 00:36:18 -i input.mp4 -to 00:39:50 -c copy -copyinkf out.mp4
+```
+
+1. -ss を「入力側」に置くことで、キーフレーム寄りにスナップされる
+   - -ss を -i の前に置いた場合、ffmpeg は demuxer レベルで seek します。
+2. -copyinkf によって先頭付近の非キーフレームも一緒にコピーする
+   - 「ストリームコピーの先頭で見つかった非キーフレームもコピーする」動きに変わります。
