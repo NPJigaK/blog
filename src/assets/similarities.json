@@ -1,0 +1,3041 @@
+{
+  "src/data/blog/_2025/stock-2m-jpy-loss-cut-lessons.md": [
+    {
+      "pubDatetime": "2024-11-28T19:03:02.737Z",
+      "title": "【Deadlock】日本語設定ファイルを作って5万ユーザーに使ってもらった体験記",
+      "featured": false,
+      "tags": [
+        "Deadlock",
+        "Python",
+        "雑記"
+      ],
+      "category": "ゲーム関連",
+      "description": "https://deadlock-japanese.devkey.jp/",
+      "slug": "deadlock-japanese-lessons-learned",
+      "path": "src/data/blog/_2024/deadlock-japanese-lessons-learned.mdx",
+      "similarity": 0.5949827449783442
+    },
+    {
+      "pubDatetime": "2020-07-14T21:00:00.000Z",
+      "title": "【一生モノ】金属で作られた最強のマウスパッドをレビュー【NINJA RATMAT 者 -SHA-】",
+      "featured": false,
+      "tags": [
+        "デバイス"
+      ],
+      "category": "ゲーム関連",
+      "description": "【一生モノ】金属で作られた最強のマウスパッドをレビュー【NINJA RATMAT 者 -SHA-】",
+      "slug": "ninja-ratmat-sha-review",
+      "path": "src/data/blog/_2020/ninja-ratmat-sha-review.mdx",
+      "similarity": 0.553412170251491
+    },
+    {
+      "pubDatetime": "2020-01-03T18:00:00.000Z",
+      "title": "【PUBG】1部リーグのプロチームのアナリストを務めた体験記",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "雑記"
+      ],
+      "category": "ゲーム関連",
+      "description": "2シーズンほど PUBG JAPAN SERIES Grade 1 に出場しているプロチームにアナリストとして加入していた当時の体験記。",
+      "slug": "my-pro-league-analyst-experience",
+      "path": "src/data/blog/_2020/my-pro-league-analyst-experience.mdx",
+      "similarity": 0.5439798648655416
+    },
+    {
+      "pubDatetime": "2020-01-09T18:00:00.000Z",
+      "title": "GASを使ってTwitter自動いいねbotを作ってみた",
+      "featured": true,
+      "tags": [
+        "Google Apps Script",
+        "X (ex-Twitter)",
+        "個人開発",
+        "雑記"
+      ],
+      "category": "技術関連",
+      "description": "GASを使ってTwitter自動いいねbotを作ってみた",
+      "slug": "gas-twitter-like-bot",
+      "path": "src/data/blog/_2020/gas-twitter-like-bot.md",
+      "similarity": 0.5308650205580628
+    },
+    {
+      "pubDatetime": "2022-09-29T15:57:52.737Z",
+      "title": "AWS Certified Solutions Architect - Associate (SAA-C03) 合格体験記",
+      "featured": false,
+      "ogImage": "../../../assets/images/blog/2021/AWS.JPG",
+      "tags": [
+        "AWS"
+      ],
+      "category": "資格取得",
+      "description": "先日 AWS Certified Solutions Architect – Associate（SAA-C03）を受験したので、情報共有します。2022年9月に SAA-C02 から SAA-C03 へ試験が切り替わったため、新試験の特徴を共有します。",
+      "slug": "saa-c03-pass-experience",
+      "path": "src/data/blog/_2022/saa-c03-pass-experience.md",
+      "similarity": 0.49205731444260253
+    }
+  ],
+  "src/data/blog/_2025/release-easy-video-trimmer-for-x.mdx": [
+    {
+      "pubDatetime": "2020-01-09T18:00:00.000Z",
+      "title": "GASを使ってTwitter自動いいねbotを作ってみた",
+      "featured": true,
+      "tags": [
+        "Google Apps Script",
+        "X (ex-Twitter)",
+        "個人開発",
+        "雑記"
+      ],
+      "category": "技術関連",
+      "description": "GASを使ってTwitter自動いいねbotを作ってみた",
+      "slug": "gas-twitter-like-bot",
+      "path": "src/data/blog/_2020/gas-twitter-like-bot.md",
+      "similarity": 0.613456202078446
+    },
+    {
+      "pubDatetime": "2021-12-29T18:51:13.737Z",
+      "title": "ffmpeg wasm を使ってブラウザで動画編集してみた",
+      "featured": false,
+      "tags": [
+        "PUBG",
+        "ゲームライフハック"
+      ],
+      "description": "ああ",
+      "slug": "ffmpeg-wasm-browser",
+      "path": "src/data/blog/_2021/ffmpeg-wasm-browser.md",
+      "similarity": 0.5673379694882958
+    },
+    {
+      "pubDatetime": "2024-11-28T19:03:02.737Z",
+      "title": "【Deadlock】日本語設定ファイルを作って5万ユーザーに使ってもらった体験記",
+      "featured": false,
+      "tags": [
+        "Deadlock",
+        "Python",
+        "雑記"
+      ],
+      "category": "ゲーム関連",
+      "description": "https://deadlock-japanese.devkey.jp/",
+      "slug": "deadlock-japanese-lessons-learned",
+      "path": "src/data/blog/_2024/deadlock-japanese-lessons-learned.mdx",
+      "similarity": 0.5045267094478576
+    },
+    {
+      "pubDatetime": "2025-11-27T18:00:00.000Z",
+      "title": "Twitterのビデオクリップ機能をX.comでも使う方法",
+      "featured": true,
+      "tags": [
+        "Google Chrome Extensions",
+        "X (ex-Twitter)"
+      ],
+      "category": "技術関連",
+      "description": "ああ",
+      "slug": "easy-video-trimmer-for-x",
+      "path": "src/data/blog/_2025/easy-video-trimmer-for-x.mdx",
+      "similarity": 0.4979394315491764
+    },
+    {
+      "pubDatetime": "2021-05-18T18:00:00.000Z",
+      "modDatetime": "2025-09-15T18:00:00.000Z",
+      "title": "Discord に Youtube Music で再生してる曲を表示させる方法",
+      "featured": false,
+      "tags": [
+        "YouTube",
+        "Discord"
+      ],
+      "description": "Spotify のように、Discord に Youtube Music で再生してる曲を表示させる方法を紹介",
+      "slug": "youtube-music-discord",
+      "path": "src/data/blog/_2021/youtube-music-discord.mdx",
+      "similarity": 0.4639962295782672
+    }
+  ],
+  "src/data/blog/_2025/my-english-template.mdx": [
+    {
+      "pubDatetime": "2022-12-29T00:00:00.000Z",
+      "title": "【随時更新】ネットで無料で遊べるおすすめのボードゲーム一覧",
+      "featured": true,
+      "tags": [
+        "ボードゲーム"
+      ],
+      "category": "ゲーム関連",
+      "description": "foo",
+      "slug": "best-online-boardgames",
+      "path": "src/data/blog/_2022/best-online-boardgames.mdx",
+      "similarity": 0.4802497232047186
+    },
+    {
+      "pubDatetime": "2020-07-22T21:00:00.000Z",
+      "title": "マウスバンジーをさらに高い位置から吊るして最強にする方法",
+      "featured": false,
+      "tags": [
+        "デバイス",
+        "ゲームライフハック"
+      ],
+      "category": "ゲーム関連",
+      "description": "マウスバンジーを使いやすくカスタマイズする裏技を紹介します。",
+      "slug": "mouse-bungee-customize",
+      "path": "src/data/blog/_2020/mouse-bungee-customize.mdx",
+      "similarity": 0.4515975550842694
+    },
+    {
+      "pubDatetime": "2019-12-05T00:00:00.000Z",
+      "title": "【Minecraft MOD開発】重い計算結果はキャッシュするべし",
+      "featured": false,
+      "tags": [
+        "Minecraft",
+        "Minecraft MOD開発",
+        "Java"
+      ],
+      "category": "技術関連",
+      "description": "foo",
+      "slug": "minecraft-modding-caching-guide",
+      "path": "src/data/blog/_2019/minecraft-modding-caching-guide.mdx",
+      "similarity": 0.4084957215738357
+    },
+    {
+      "pubDatetime": "2020-07-14T21:00:00.000Z",
+      "title": "【一生モノ】金属で作られた最強のマウスパッドをレビュー【NINJA RATMAT 者 -SHA-】",
+      "featured": false,
+      "tags": [
+        "デバイス"
+      ],
+      "category": "ゲーム関連",
+      "description": "【一生モノ】金属で作られた最強のマウスパッドをレビュー【NINJA RATMAT 者 -SHA-】",
+      "slug": "ninja-ratmat-sha-review",
+      "path": "src/data/blog/_2020/ninja-ratmat-sha-review.mdx",
+      "similarity": 0.3625104346146663
+    },
+    {
+      "pubDatetime": "2024-11-28T19:03:02.737Z",
+      "title": "【Deadlock】日本語設定ファイルを作って5万ユーザーに使ってもらった体験記",
+      "featured": false,
+      "tags": [
+        "Deadlock",
+        "Python",
+        "雑記"
+      ],
+      "category": "ゲーム関連",
+      "description": "https://deadlock-japanese.devkey.jp/",
+      "slug": "deadlock-japanese-lessons-learned",
+      "path": "src/data/blog/_2024/deadlock-japanese-lessons-learned.mdx",
+      "similarity": 0.3621300174802185
+    }
+  ],
+  "src/data/blog/_2025/easy-video-trimmer-for-x.mdx": [
+    {
+      "pubDatetime": "2025-05-01T18:00:00.000Z",
+      "modDatetime": "2025-11-26T18:00:00.000Z",
+      "title": "Twitterのビデオクリップ機能をChrome拡張で再現してみた",
+      "featured": true,
+      "tags": [
+        "Google Chrome Extensions",
+        "X (ex-Twitter)",
+        "個人開発",
+        "JavaScript",
+        "雑記"
+      ],
+      "category": "技術関連",
+      "description": "ああ",
+      "slug": "release-easy-video-trimmer-for-x",
+      "path": "src/data/blog/_2025/release-easy-video-trimmer-for-x.mdx",
+      "similarity": 0.4979394315491764
+    },
+    {
+      "pubDatetime": "2023-05-25T18:00:00.000Z",
+      "title": "Twitch のフォロー・フォロー解除を確認するツール作ったって話【Twitch Follower Checker】",
+      "featured": true,
+      "tags": [
+        "Twitch",
+        "個人開発",
+        "雑記"
+      ],
+      "category": "技術関連",
+      "description": "PUBGで8×8マップを遊びたいのにマッチしない？そんなときは、サーバーリージョンを変更してみよう。1クリックで切り替えられる便利な方法を紹介します。",
+      "slug": "release-twitch-follower-checker",
+      "path": "src/data/blog/_2023/release-twitch-follower-checker.mdx",
+      "similarity": 0.43903371926035806
+    },
+    {
+      "pubDatetime": "2023-05-27T18:00:00.000Z",
+      "title": "Twitch のフォロー解除・リムーブした人を確認する方法【Twitch Follower Checker】",
+      "featured": true,
+      "tags": [
+        "Twitch",
+        "個人開発"
+      ],
+      "category": "技術関連",
+      "description": "PUBGで8×8マップを遊びたいのにマッチしない？そんなときは、サーバーリージョンを変更してみよう。1クリックで切り替えられる便利な方法を紹介します。",
+      "slug": "twitch-follower-checker",
+      "path": "src/data/blog/_2023/twitch-follower-checker.mdx",
+      "similarity": 0.4282528015229614
+    },
+    {
+      "pubDatetime": "2021-12-29T18:51:13.737Z",
+      "title": "ffmpeg wasm を使ってブラウザで動画編集してみた",
+      "featured": false,
+      "tags": [
+        "PUBG",
+        "ゲームライフハック"
+      ],
+      "description": "ああ",
+      "slug": "ffmpeg-wasm-browser",
+      "path": "src/data/blog/_2021/ffmpeg-wasm-browser.md",
+      "similarity": 0.4240267455159879
+    },
+    {
+      "pubDatetime": "2020-01-10T18:00:00.000Z",
+      "title": "GASを使ってTwitterの情報をDiscordに流す方法",
+      "featured": false,
+      "tags": [
+        "Google Apps Script",
+        "Discord",
+        "X (ex-Twitter)",
+        "個人開発"
+      ],
+      "category": "技術関連",
+      "description": "GASを使ってTwitterの情報をDiscordに流す方法",
+      "slug": "gas-twitter-to-discord",
+      "path": "src/data/blog/_2020/gas-twitter-to-discord.md",
+      "similarity": 0.3906761786548288
+    }
+  ],
+  "src/data/blog/_2025/dop-c02-pass-experience.md": [
+    {
+      "pubDatetime": "2024-09-30T15:57:52.737Z",
+      "title": "AWS Certified Security - Specialty（SCS-C02）合格体験記",
+      "featured": false,
+      "ogImage": "../../../assets/images/blog/2021/AWS.JPG",
+      "tags": [
+        "AWS",
+        "資格取得"
+      ],
+      "description": "この度、AWS Certified Security - Specialty（SCS-C02）試験に無事合格できましたので、その体験をシェアします。",
+      "slug": "scs-c02-pass-experience",
+      "path": "src/data/blog/_2024/scs-c02-pass-experience.md",
+      "similarity": 0.9999999925774854
+    },
+    {
+      "pubDatetime": "2024-04-01T15:57:52.737Z",
+      "title": "AWS Certified Data Analytics - Specialty（DAS-C01）合格体験記",
+      "featured": false,
+      "ogImage": "../../../assets/images/blog/2021/AWS.JPG",
+      "tags": [
+        "AWS",
+        "資格取得"
+      ],
+      "description": "この度、AWS Certified Data Analytics - Specialty（DAS-C01） に合格しましたので、試験の体験記を共有します。",
+      "slug": "das-c01-pass-experience",
+      "path": "src/data/blog/_2024/das-c01-pass-experience.md",
+      "similarity": 0.8609733896357046
+    },
+    {
+      "pubDatetime": "2023-03-29T15:57:52.737Z",
+      "title": "AWS Certified Data Analytics - Specialty（DAS-C01）合格体験記",
+      "featured": false,
+      "ogImage": "../../../assets/images/blog/2021/AWS.JPG",
+      "tags": [
+        "AWS",
+        "資格取得"
+      ],
+      "description": "AWS Certified Data Analytics - Specialty（DAS-C01）試験に合格しましたので、その体験をシェアします。",
+      "slug": "dva-c02-pass-experience",
+      "path": "src/data/blog/_2023/dva-c02-pass-experience.md",
+      "similarity": 0.8546116113886125
+    },
+    {
+      "pubDatetime": "2023-10-02T15:57:52.737Z",
+      "title": "AWS Certified SysOps Administrator - Associate（SOA-C02）合格体験記",
+      "featured": false,
+      "ogImage": "../../../assets/images/blog/2021/AWS.JPG",
+      "tags": [
+        "AWS",
+        "資格取得"
+      ],
+      "description": "この度、AWS Certified SysOps Administrator - Associate（SOA-C02）試験に無事合格できましたので、その体験を共有します。",
+      "slug": "soa-c02-pass-experience",
+      "path": "src/data/blog/_2023/soa-c02-pass-experience.md",
+      "similarity": 0.8118578731488567
+    },
+    {
+      "pubDatetime": "2022-09-29T15:57:52.737Z",
+      "title": "AWS Certified Solutions Architect - Associate (SAA-C03) 合格体験記",
+      "featured": false,
+      "ogImage": "../../../assets/images/blog/2021/AWS.JPG",
+      "tags": [
+        "AWS"
+      ],
+      "category": "資格取得",
+      "description": "先日 AWS Certified Solutions Architect – Associate（SAA-C03）を受験したので、情報共有します。2022年9月に SAA-C02 から SAA-C03 へ試験が切り替わったため、新試験の特徴を共有します。",
+      "slug": "saa-c03-pass-experience",
+      "path": "src/data/blog/_2022/saa-c03-pass-experience.md",
+      "similarity": 0.7251849821426929
+    }
+  ],
+  "src/data/blog/_2025/asahi-net-hikari-cross-10gb-review.mdx": [
+    {
+      "pubDatetime": "2023-05-25T18:00:00.000Z",
+      "title": "Twitch のフォロー・フォロー解除を確認するツール作ったって話【Twitch Follower Checker】",
+      "featured": true,
+      "tags": [
+        "Twitch",
+        "個人開発",
+        "雑記"
+      ],
+      "category": "技術関連",
+      "description": "PUBGで8×8マップを遊びたいのにマッチしない？そんなときは、サーバーリージョンを変更してみよう。1クリックで切り替えられる便利な方法を紹介します。",
+      "slug": "release-twitch-follower-checker",
+      "path": "src/data/blog/_2023/release-twitch-follower-checker.mdx",
+      "similarity": 0.39968831541544686
+    },
+    {
+      "pubDatetime": "2024-12-06T18:00:00.000Z",
+      "title": "WIP 【湿気・臭い】新築のコンクリート打ちっぱなしマンションに1年住んでみた感想",
+      "featured": false,
+      "tags": [
+        "雑記"
+      ],
+      "category": "リモートワーク",
+      "description": "あ",
+      "slug": "exposed-concrete-chintai-1year-review",
+      "path": "src/data/blog/_2024/exposed-concrete-chintai-1year-review.md",
+      "similarity": 0.39008565167267684
+    },
+    {
+      "pubDatetime": "2023-05-27T18:00:00.000Z",
+      "title": "Twitch のフォロー解除・リムーブした人を確認する方法【Twitch Follower Checker】",
+      "featured": true,
+      "tags": [
+        "Twitch",
+        "個人開発"
+      ],
+      "category": "技術関連",
+      "description": "PUBGで8×8マップを遊びたいのにマッチしない？そんなときは、サーバーリージョンを変更してみよう。1クリックで切り替えられる便利な方法を紹介します。",
+      "slug": "twitch-follower-checker",
+      "path": "src/data/blog/_2023/twitch-follower-checker.mdx",
+      "similarity": 0.38684843902505867
+    },
+    {
+      "pubDatetime": "2025-11-27T18:00:00.000Z",
+      "title": "Twitterのビデオクリップ機能をX.comでも使う方法",
+      "featured": true,
+      "tags": [
+        "Google Chrome Extensions",
+        "X (ex-Twitter)"
+      ],
+      "category": "技術関連",
+      "description": "ああ",
+      "slug": "easy-video-trimmer-for-x",
+      "path": "src/data/blog/_2025/easy-video-trimmer-for-x.mdx",
+      "similarity": 0.3763436283182067
+    },
+    {
+      "pubDatetime": "2020-01-09T18:00:00.000Z",
+      "title": "GASを使ってTwitter自動いいねbotを作ってみた",
+      "featured": true,
+      "tags": [
+        "Google Apps Script",
+        "X (ex-Twitter)",
+        "個人開発",
+        "雑記"
+      ],
+      "category": "技術関連",
+      "description": "GASを使ってTwitter自動いいねbotを作ってみた",
+      "slug": "gas-twitter-like-bot",
+      "path": "src/data/blog/_2020/gas-twitter-like-bot.md",
+      "similarity": 0.374427854096424
+    }
+  ],
+  "src/data/blog/_2024/scs-c02-pass-experience.md": [
+    {
+      "pubDatetime": "2025-03-24T15:57:52.737Z",
+      "title": "AWS Certified DevOps Engineer - Professional（DOP-C02）合格体験記",
+      "featured": false,
+      "ogImage": "../../../assets/images/blog/2021/AWS.JPG",
+      "tags": [
+        "AWS",
+        "資格取得"
+      ],
+      "description": "この度、AWS Certified DevOps Engineer - Professional（DOP-C02）試験に無事合格できましたので、その体験をシェアします。",
+      "slug": "dop-c02-pass-experience",
+      "path": "src/data/blog/_2025/dop-c02-pass-experience.md",
+      "similarity": 0.9999999925774854
+    },
+    {
+      "pubDatetime": "2024-04-01T15:57:52.737Z",
+      "title": "AWS Certified Data Analytics - Specialty（DAS-C01）合格体験記",
+      "featured": false,
+      "ogImage": "../../../assets/images/blog/2021/AWS.JPG",
+      "tags": [
+        "AWS",
+        "資格取得"
+      ],
+      "description": "この度、AWS Certified Data Analytics - Specialty（DAS-C01） に合格しましたので、試験の体験記を共有します。",
+      "slug": "das-c01-pass-experience",
+      "path": "src/data/blog/_2024/das-c01-pass-experience.md",
+      "similarity": 0.8609733896357046
+    },
+    {
+      "pubDatetime": "2023-03-29T15:57:52.737Z",
+      "title": "AWS Certified Data Analytics - Specialty（DAS-C01）合格体験記",
+      "featured": false,
+      "ogImage": "../../../assets/images/blog/2021/AWS.JPG",
+      "tags": [
+        "AWS",
+        "資格取得"
+      ],
+      "description": "AWS Certified Data Analytics - Specialty（DAS-C01）試験に合格しましたので、その体験をシェアします。",
+      "slug": "dva-c02-pass-experience",
+      "path": "src/data/blog/_2023/dva-c02-pass-experience.md",
+      "similarity": 0.8546116113886125
+    },
+    {
+      "pubDatetime": "2023-10-02T15:57:52.737Z",
+      "title": "AWS Certified SysOps Administrator - Associate（SOA-C02）合格体験記",
+      "featured": false,
+      "ogImage": "../../../assets/images/blog/2021/AWS.JPG",
+      "tags": [
+        "AWS",
+        "資格取得"
+      ],
+      "description": "この度、AWS Certified SysOps Administrator - Associate（SOA-C02）試験に無事合格できましたので、その体験を共有します。",
+      "slug": "soa-c02-pass-experience",
+      "path": "src/data/blog/_2023/soa-c02-pass-experience.md",
+      "similarity": 0.8118578731488567
+    },
+    {
+      "pubDatetime": "2022-09-29T15:57:52.737Z",
+      "title": "AWS Certified Solutions Architect - Associate (SAA-C03) 合格体験記",
+      "featured": false,
+      "ogImage": "../../../assets/images/blog/2021/AWS.JPG",
+      "tags": [
+        "AWS"
+      ],
+      "category": "資格取得",
+      "description": "先日 AWS Certified Solutions Architect – Associate（SAA-C03）を受験したので、情報共有します。2022年9月に SAA-C02 から SAA-C03 へ試験が切り替わったため、新試験の特徴を共有します。",
+      "slug": "saa-c03-pass-experience",
+      "path": "src/data/blog/_2022/saa-c03-pass-experience.md",
+      "similarity": 0.7251849821426929
+    }
+  ],
+  "src/data/blog/_2024/launching-deadlock-japanese-settings.mdx": [
+    {
+      "pubDatetime": "2024-11-28T19:03:02.737Z",
+      "title": "【Deadlock】日本語設定ファイルを作って5万ユーザーに使ってもらった体験記",
+      "featured": false,
+      "tags": [
+        "Deadlock",
+        "Python",
+        "雑記"
+      ],
+      "category": "ゲーム関連",
+      "description": "https://deadlock-japanese.devkey.jp/",
+      "slug": "deadlock-japanese-lessons-learned",
+      "path": "src/data/blog/_2024/deadlock-japanese-lessons-learned.mdx",
+      "similarity": 0.5792728888674904
+    },
+    {
+      "pubDatetime": "2019-08-10T00:00:00.000Z",
+      "title": "PUBG LITE を日本からプレイする方法",
+      "featured": false,
+      "tags": [
+        "PUBG"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG LITE を日本からプレイする方法",
+      "slug": "how-to-play-pubg-lite",
+      "path": "src/data/blog/_2019/how-to-play-pubg-lite.mdx",
+      "similarity": 0.5191715728495802
+    },
+    {
+      "pubDatetime": "2020-03-09T18:00:00.000Z",
+      "title": "PUBG試合分析システム Steins.GG を限定公開しました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システム Steins.GG を限定公開しました",
+      "slug": "steinsgg-is-back",
+      "path": "src/data/blog/_2020/steinsgg-is-back.md",
+      "similarity": 0.5186529302867451
+    },
+    {
+      "pubDatetime": "2024-09-08T18:00:00.000Z",
+      "title": "【Deadlock】FPS最大値を設定する方法",
+      "featured": false,
+      "category": "ゲーム関連",
+      "tags": [
+        "Deadlock",
+        "ゲームライフハック",
+        "最適化"
+      ],
+      "description": "どうやら現状、Deadlock のゲーム内設定からは FPS の最大値は直接いじれず、デフォルトは出るだけ出る挙動っぽいです。今回は恒久対応として Steam の起動オプションから設定する方法を共有します。",
+      "slug": "deadlock-fps-max-launch-options",
+      "path": "src/data/blog/_2024/deadlock-fps-max-launch-options.mdx",
+      "similarity": 0.4723873498176017
+    },
+    {
+      "pubDatetime": "2020-07-22T21:00:00.000Z",
+      "title": "マウスバンジーをさらに高い位置から吊るして最強にする方法",
+      "featured": false,
+      "tags": [
+        "デバイス",
+        "ゲームライフハック"
+      ],
+      "category": "ゲーム関連",
+      "description": "マウスバンジーを使いやすくカスタマイズする裏技を紹介します。",
+      "slug": "mouse-bungee-customize",
+      "path": "src/data/blog/_2020/mouse-bungee-customize.mdx",
+      "similarity": 0.4721204488694891
+    }
+  ],
+  "src/data/blog/_2024/exposed-concrete-chintai-1year-review.md": [
+    {
+      "pubDatetime": "2023-12-05T18:51:13.737Z",
+      "title": "WIP 【カビない？】賃貸でフロアタイルを敷いてみた感想",
+      "featured": false,
+      "tags": [
+        "雑記"
+      ],
+      "category": "リモートワーク",
+      "description": "あ",
+      "slug": "chintai-floor-tile-review",
+      "path": "src/data/blog/_2023/chintai-floor-tile-review.md",
+      "similarity": 0.4433221146864766
+    },
+    {
+      "pubDatetime": "2025-08-18T18:51:13.737Z",
+      "title": "AsahiNet 光クロスコース 10GB プランに変更した感想",
+      "featured": false,
+      "tags": [
+        "雑記"
+      ],
+      "category": "リモートワーク",
+      "description": "ああ",
+      "slug": "asahi-net-hikari-cross-10gb-review",
+      "path": "src/data/blog/_2025/asahi-net-hikari-cross-10gb-review.mdx",
+      "similarity": 0.39008565167267684
+    },
+    {
+      "pubDatetime": "2023-05-25T18:00:00.000Z",
+      "title": "Twitch のフォロー・フォロー解除を確認するツール作ったって話【Twitch Follower Checker】",
+      "featured": true,
+      "tags": [
+        "Twitch",
+        "個人開発",
+        "雑記"
+      ],
+      "category": "技術関連",
+      "description": "PUBGで8×8マップを遊びたいのにマッチしない？そんなときは、サーバーリージョンを変更してみよう。1クリックで切り替えられる便利な方法を紹介します。",
+      "slug": "release-twitch-follower-checker",
+      "path": "src/data/blog/_2023/release-twitch-follower-checker.mdx",
+      "similarity": 0.380309997698185
+    },
+    {
+      "pubDatetime": "2025-11-27T18:00:00.000Z",
+      "title": "Twitterのビデオクリップ機能をX.comでも使う方法",
+      "featured": true,
+      "tags": [
+        "Google Chrome Extensions",
+        "X (ex-Twitter)"
+      ],
+      "category": "技術関連",
+      "description": "ああ",
+      "slug": "easy-video-trimmer-for-x",
+      "path": "src/data/blog/_2025/easy-video-trimmer-for-x.mdx",
+      "similarity": 0.348276790121314
+    },
+    {
+      "pubDatetime": "2023-05-27T18:00:00.000Z",
+      "title": "Twitch のフォロー解除・リムーブした人を確認する方法【Twitch Follower Checker】",
+      "featured": true,
+      "tags": [
+        "Twitch",
+        "個人開発"
+      ],
+      "category": "技術関連",
+      "description": "PUBGで8×8マップを遊びたいのにマッチしない？そんなときは、サーバーリージョンを変更してみよう。1クリックで切り替えられる便利な方法を紹介します。",
+      "slug": "twitch-follower-checker",
+      "path": "src/data/blog/_2023/twitch-follower-checker.mdx",
+      "similarity": 0.34804696704278926
+    }
+  ],
+  "src/data/blog/_2024/deadlock-japanese-lessons-learned.mdx": [
+    {
+      "pubDatetime": "2020-01-09T18:00:00.000Z",
+      "title": "GASを使ってTwitter自動いいねbotを作ってみた",
+      "featured": true,
+      "tags": [
+        "Google Apps Script",
+        "X (ex-Twitter)",
+        "個人開発",
+        "雑記"
+      ],
+      "category": "技術関連",
+      "description": "GASを使ってTwitter自動いいねbotを作ってみた",
+      "slug": "gas-twitter-like-bot",
+      "path": "src/data/blog/_2020/gas-twitter-like-bot.md",
+      "similarity": 0.6156963336967234
+    },
+    {
+      "pubDatetime": "2025-05-01T18:00:00.000Z",
+      "title": "株で200万円損切りした話。学んだ〇つのこと",
+      "featured": true,
+      "tags": [
+        "株式投資"
+      ],
+      "category": "投資",
+      "description": "株で200万円損切りした話。備忘録として残しているが、同じような境遇になって辛い思いをしている人に少しでも助けになれば良い。",
+      "slug": "stock-2m-jpy-loss-cut-lessons",
+      "path": "src/data/blog/_2025/stock-2m-jpy-loss-cut-lessons.md",
+      "similarity": 0.5949827449783442
+    },
+    {
+      "pubDatetime": "2024-08-28T19:03:02.737Z",
+      "title": "【Deadlock】日本語化ファイルを公開しました。",
+      "featured": true,
+      "tags": [
+        "Deadlock",
+        "ゲームライフハック",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "https://deadlock-japanese.devkey.jp/",
+      "slug": "launching-deadlock-japanese-settings",
+      "path": "src/data/blog/_2024/launching-deadlock-japanese-settings.mdx",
+      "similarity": 0.5792728888674904
+    },
+    {
+      "pubDatetime": "2019-02-25T18:00:00.000Z",
+      "modDatetime": "2020-03-08T18:00:00.000Z",
+      "title": "PUBG試合分析システムを公開しました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "ゲームライフハック",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システム Steins.GG を公開しました！",
+      "slug": "release-steinsgg",
+      "path": "src/data/blog/_2019/release-steinsgg.md",
+      "similarity": 0.5707351297173485
+    },
+    {
+      "pubDatetime": "2020-04-15T18:00:00.000Z",
+      "title": "PUBG試合分析システムをリニューアルしました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システムに大型アップデートが入りました",
+      "slug": "renewal-steinsgg",
+      "path": "src/data/blog/_2020/renewal-steinsgg.md",
+      "similarity": 0.5619325304429049
+    }
+  ],
+  "src/data/blog/_2024/deadlock-fps-max-launch-options.mdx": [
+    {
+      "pubDatetime": "2022-12-26T00:00:00.000Z",
+      "title": "【GUNDAM EVOLUTION】低スぺCPUでもFPSを出す方法",
+      "featured": false,
+      "category": "ゲーム関連",
+      "tags": [
+        "GUNDAM EVOLUTION",
+        "ゲームライフハック",
+        "最適化"
+      ],
+      "description": "foo",
+      "slug": "gundam-evolution-fps-optimization",
+      "path": "src/data/blog/_2022/gundam-evolution-fps-optimization.md",
+      "similarity": 0.650843975850661
+    },
+    {
+      "pubDatetime": "2024-11-28T19:03:02.737Z",
+      "title": "【Deadlock】日本語設定ファイルを作って5万ユーザーに使ってもらった体験記",
+      "featured": false,
+      "tags": [
+        "Deadlock",
+        "Python",
+        "雑記"
+      ],
+      "category": "ゲーム関連",
+      "description": "https://deadlock-japanese.devkey.jp/",
+      "slug": "deadlock-japanese-lessons-learned",
+      "path": "src/data/blog/_2024/deadlock-japanese-lessons-learned.mdx",
+      "similarity": 0.5144166670594256
+    },
+    {
+      "pubDatetime": "2024-08-28T19:03:02.737Z",
+      "title": "【Deadlock】日本語化ファイルを公開しました。",
+      "featured": true,
+      "tags": [
+        "Deadlock",
+        "ゲームライフハック",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "https://deadlock-japanese.devkey.jp/",
+      "slug": "launching-deadlock-japanese-settings",
+      "path": "src/data/blog/_2024/launching-deadlock-japanese-settings.mdx",
+      "similarity": 0.4723873498176017
+    },
+    {
+      "pubDatetime": "2019-07-15T21:22:51.127Z",
+      "title": "静音リングを使って最強のゲーミングキーボードにカスタマイズする方法",
+      "featured": false,
+      "tags": [
+        "デバイス",
+        "ゲームライフハック"
+      ],
+      "category": "ゲーム関連",
+      "description": "メカニカルキーボードの入力速度を速くする裏技を紹介します。",
+      "slug": "corsair-keyboard-customize",
+      "path": "src/data/blog/_2019/corsair-keyboard-customize.mdx",
+      "similarity": 0.45959087330235054
+    },
+    {
+      "pubDatetime": "2019-02-25T18:00:00.000Z",
+      "modDatetime": "2020-03-08T18:00:00.000Z",
+      "title": "PUBG試合分析システムを公開しました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "ゲームライフハック",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システム Steins.GG を公開しました！",
+      "slug": "release-steinsgg",
+      "path": "src/data/blog/_2019/release-steinsgg.md",
+      "similarity": 0.4486861751279152
+    }
+  ],
+  "src/data/blog/_2024/das-c01-pass-experience.md": [
+    {
+      "pubDatetime": "2025-03-24T15:57:52.737Z",
+      "title": "AWS Certified DevOps Engineer - Professional（DOP-C02）合格体験記",
+      "featured": false,
+      "ogImage": "../../../assets/images/blog/2021/AWS.JPG",
+      "tags": [
+        "AWS",
+        "資格取得"
+      ],
+      "description": "この度、AWS Certified DevOps Engineer - Professional（DOP-C02）試験に無事合格できましたので、その体験をシェアします。",
+      "slug": "dop-c02-pass-experience",
+      "path": "src/data/blog/_2025/dop-c02-pass-experience.md",
+      "similarity": 0.8609733896357046
+    },
+    {
+      "pubDatetime": "2024-09-30T15:57:52.737Z",
+      "title": "AWS Certified Security - Specialty（SCS-C02）合格体験記",
+      "featured": false,
+      "ogImage": "../../../assets/images/blog/2021/AWS.JPG",
+      "tags": [
+        "AWS",
+        "資格取得"
+      ],
+      "description": "この度、AWS Certified Security - Specialty（SCS-C02）試験に無事合格できましたので、その体験をシェアします。",
+      "slug": "scs-c02-pass-experience",
+      "path": "src/data/blog/_2024/scs-c02-pass-experience.md",
+      "similarity": 0.8609733896357046
+    },
+    {
+      "pubDatetime": "2023-03-29T15:57:52.737Z",
+      "title": "AWS Certified Data Analytics - Specialty（DAS-C01）合格体験記",
+      "featured": false,
+      "ogImage": "../../../assets/images/blog/2021/AWS.JPG",
+      "tags": [
+        "AWS",
+        "資格取得"
+      ],
+      "description": "AWS Certified Data Analytics - Specialty（DAS-C01）試験に合格しましたので、その体験をシェアします。",
+      "slug": "dva-c02-pass-experience",
+      "path": "src/data/blog/_2023/dva-c02-pass-experience.md",
+      "similarity": 0.8076541565513451
+    },
+    {
+      "pubDatetime": "2023-10-02T15:57:52.737Z",
+      "title": "AWS Certified SysOps Administrator - Associate（SOA-C02）合格体験記",
+      "featured": false,
+      "ogImage": "../../../assets/images/blog/2021/AWS.JPG",
+      "tags": [
+        "AWS",
+        "資格取得"
+      ],
+      "description": "この度、AWS Certified SysOps Administrator - Associate（SOA-C02）試験に無事合格できましたので、その体験を共有します。",
+      "slug": "soa-c02-pass-experience",
+      "path": "src/data/blog/_2023/soa-c02-pass-experience.md",
+      "similarity": 0.8050767323314051
+    },
+    {
+      "pubDatetime": "2022-09-29T15:57:52.737Z",
+      "title": "AWS Certified Solutions Architect - Associate (SAA-C03) 合格体験記",
+      "featured": false,
+      "ogImage": "../../../assets/images/blog/2021/AWS.JPG",
+      "tags": [
+        "AWS"
+      ],
+      "category": "資格取得",
+      "description": "先日 AWS Certified Solutions Architect – Associate（SAA-C03）を受験したので、情報共有します。2022年9月に SAA-C02 から SAA-C03 へ試験が切り替わったため、新試験の特徴を共有します。",
+      "slug": "saa-c03-pass-experience",
+      "path": "src/data/blog/_2022/saa-c03-pass-experience.md",
+      "similarity": 0.7617416641912896
+    }
+  ],
+  "src/data/blog/_2023/twitch-follower-checker.mdx": [
+    {
+      "pubDatetime": "2023-05-25T18:00:00.000Z",
+      "title": "Twitch のフォロー・フォロー解除を確認するツール作ったって話【Twitch Follower Checker】",
+      "featured": true,
+      "tags": [
+        "Twitch",
+        "個人開発",
+        "雑記"
+      ],
+      "category": "技術関連",
+      "description": "PUBGで8×8マップを遊びたいのにマッチしない？そんなときは、サーバーリージョンを変更してみよう。1クリックで切り替えられる便利な方法を紹介します。",
+      "slug": "release-twitch-follower-checker",
+      "path": "src/data/blog/_2023/release-twitch-follower-checker.mdx",
+      "similarity": 0.9951275504616095
+    },
+    {
+      "pubDatetime": "2020-01-10T18:00:00.000Z",
+      "title": "GASを使ってTwitterの情報をDiscordに流す方法",
+      "featured": false,
+      "tags": [
+        "Google Apps Script",
+        "Discord",
+        "X (ex-Twitter)",
+        "個人開発"
+      ],
+      "category": "技術関連",
+      "description": "GASを使ってTwitterの情報をDiscordに流す方法",
+      "slug": "gas-twitter-to-discord",
+      "path": "src/data/blog/_2020/gas-twitter-to-discord.md",
+      "similarity": 0.5008518003226694
+    },
+    {
+      "pubDatetime": "2020-01-09T18:00:00.000Z",
+      "title": "GASを使ってTwitter自動いいねbotを作ってみた",
+      "featured": true,
+      "tags": [
+        "Google Apps Script",
+        "X (ex-Twitter)",
+        "個人開発",
+        "雑記"
+      ],
+      "category": "技術関連",
+      "description": "GASを使ってTwitter自動いいねbotを作ってみた",
+      "slug": "gas-twitter-like-bot",
+      "path": "src/data/blog/_2020/gas-twitter-like-bot.md",
+      "similarity": 0.4805921465433402
+    },
+    {
+      "pubDatetime": "2019-12-05T00:00:00.000Z",
+      "title": "【Minecraft MOD開発】重い計算結果はキャッシュするべし",
+      "featured": false,
+      "tags": [
+        "Minecraft",
+        "Minecraft MOD開発",
+        "Java"
+      ],
+      "category": "技術関連",
+      "description": "foo",
+      "slug": "minecraft-modding-caching-guide",
+      "path": "src/data/blog/_2019/minecraft-modding-caching-guide.mdx",
+      "similarity": 0.47252439375278044
+    },
+    {
+      "pubDatetime": "2020-03-09T18:00:00.000Z",
+      "title": "PUBG試合分析システム Steins.GG を限定公開しました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システム Steins.GG を限定公開しました",
+      "slug": "steinsgg-is-back",
+      "path": "src/data/blog/_2020/steinsgg-is-back.md",
+      "similarity": 0.43926647032426114
+    }
+  ],
+  "src/data/blog/_2023/suumo-hide-agency-bookmarklet.md": [
+    {
+      "pubDatetime": "2020-01-09T18:00:00.000Z",
+      "title": "GASを使ってTwitter自動いいねbotを作ってみた",
+      "featured": true,
+      "tags": [
+        "Google Apps Script",
+        "X (ex-Twitter)",
+        "個人開発",
+        "雑記"
+      ],
+      "category": "技術関連",
+      "description": "GASを使ってTwitter自動いいねbotを作ってみた",
+      "slug": "gas-twitter-like-bot",
+      "path": "src/data/blog/_2020/gas-twitter-like-bot.md",
+      "similarity": 0.4333208329832863
+    },
+    {
+      "pubDatetime": "2020-04-15T18:00:00.000Z",
+      "title": "PUBG試合分析システムをリニューアルしました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システムに大型アップデートが入りました",
+      "slug": "renewal-steinsgg",
+      "path": "src/data/blog/_2020/renewal-steinsgg.md",
+      "similarity": 0.3956481404561112
+    },
+    {
+      "pubDatetime": "2020-01-10T18:00:00.000Z",
+      "title": "GASを使ってTwitterの情報をDiscordに流す方法",
+      "featured": false,
+      "tags": [
+        "Google Apps Script",
+        "Discord",
+        "X (ex-Twitter)",
+        "個人開発"
+      ],
+      "category": "技術関連",
+      "description": "GASを使ってTwitterの情報をDiscordに流す方法",
+      "slug": "gas-twitter-to-discord",
+      "path": "src/data/blog/_2020/gas-twitter-to-discord.md",
+      "similarity": 0.3866288053054465
+    },
+    {
+      "pubDatetime": "2020-07-22T21:00:00.000Z",
+      "title": "マウスバンジーをさらに高い位置から吊るして最強にする方法",
+      "featured": false,
+      "tags": [
+        "デバイス",
+        "ゲームライフハック"
+      ],
+      "category": "ゲーム関連",
+      "description": "マウスバンジーを使いやすくカスタマイズする裏技を紹介します。",
+      "slug": "mouse-bungee-customize",
+      "path": "src/data/blog/_2020/mouse-bungee-customize.mdx",
+      "similarity": 0.383053737588335
+    },
+    {
+      "pubDatetime": "2024-11-28T19:03:02.737Z",
+      "title": "【Deadlock】日本語設定ファイルを作って5万ユーザーに使ってもらった体験記",
+      "featured": false,
+      "tags": [
+        "Deadlock",
+        "Python",
+        "雑記"
+      ],
+      "category": "ゲーム関連",
+      "description": "https://deadlock-japanese.devkey.jp/",
+      "slug": "deadlock-japanese-lessons-learned",
+      "path": "src/data/blog/_2024/deadlock-japanese-lessons-learned.mdx",
+      "similarity": 0.38117712412192123
+    }
+  ],
+  "src/data/blog/_2023/soa-c02-pass-experience.md": [
+    {
+      "pubDatetime": "2023-03-29T15:57:52.737Z",
+      "title": "AWS Certified Data Analytics - Specialty（DAS-C01）合格体験記",
+      "featured": false,
+      "ogImage": "../../../assets/images/blog/2021/AWS.JPG",
+      "tags": [
+        "AWS",
+        "資格取得"
+      ],
+      "description": "AWS Certified Data Analytics - Specialty（DAS-C01）試験に合格しましたので、その体験をシェアします。",
+      "slug": "dva-c02-pass-experience",
+      "path": "src/data/blog/_2023/dva-c02-pass-experience.md",
+      "similarity": 0.8294361271834352
+    },
+    {
+      "pubDatetime": "2025-03-24T15:57:52.737Z",
+      "title": "AWS Certified DevOps Engineer - Professional（DOP-C02）合格体験記",
+      "featured": false,
+      "ogImage": "../../../assets/images/blog/2021/AWS.JPG",
+      "tags": [
+        "AWS",
+        "資格取得"
+      ],
+      "description": "この度、AWS Certified DevOps Engineer - Professional（DOP-C02）試験に無事合格できましたので、その体験をシェアします。",
+      "slug": "dop-c02-pass-experience",
+      "path": "src/data/blog/_2025/dop-c02-pass-experience.md",
+      "similarity": 0.8118578731488567
+    },
+    {
+      "pubDatetime": "2024-09-30T15:57:52.737Z",
+      "title": "AWS Certified Security - Specialty（SCS-C02）合格体験記",
+      "featured": false,
+      "ogImage": "../../../assets/images/blog/2021/AWS.JPG",
+      "tags": [
+        "AWS",
+        "資格取得"
+      ],
+      "description": "この度、AWS Certified Security - Specialty（SCS-C02）試験に無事合格できましたので、その体験をシェアします。",
+      "slug": "scs-c02-pass-experience",
+      "path": "src/data/blog/_2024/scs-c02-pass-experience.md",
+      "similarity": 0.8118578731488567
+    },
+    {
+      "pubDatetime": "2024-04-01T15:57:52.737Z",
+      "title": "AWS Certified Data Analytics - Specialty（DAS-C01）合格体験記",
+      "featured": false,
+      "ogImage": "../../../assets/images/blog/2021/AWS.JPG",
+      "tags": [
+        "AWS",
+        "資格取得"
+      ],
+      "description": "この度、AWS Certified Data Analytics - Specialty（DAS-C01） に合格しましたので、試験の体験記を共有します。",
+      "slug": "das-c01-pass-experience",
+      "path": "src/data/blog/_2024/das-c01-pass-experience.md",
+      "similarity": 0.8050767323314051
+    },
+    {
+      "pubDatetime": "2022-09-29T15:57:52.737Z",
+      "title": "AWS Certified Solutions Architect - Associate (SAA-C03) 合格体験記",
+      "featured": false,
+      "ogImage": "../../../assets/images/blog/2021/AWS.JPG",
+      "tags": [
+        "AWS"
+      ],
+      "category": "資格取得",
+      "description": "先日 AWS Certified Solutions Architect – Associate（SAA-C03）を受験したので、情報共有します。2022年9月に SAA-C02 から SAA-C03 へ試験が切り替わったため、新試験の特徴を共有します。",
+      "slug": "saa-c03-pass-experience",
+      "path": "src/data/blog/_2022/saa-c03-pass-experience.md",
+      "similarity": 0.7376901399494877
+    }
+  ],
+  "src/data/blog/_2023/release-twitch-follower-checker.mdx": [
+    {
+      "pubDatetime": "2023-05-27T18:00:00.000Z",
+      "title": "Twitch のフォロー解除・リムーブした人を確認する方法【Twitch Follower Checker】",
+      "featured": true,
+      "tags": [
+        "Twitch",
+        "個人開発"
+      ],
+      "category": "技術関連",
+      "description": "PUBGで8×8マップを遊びたいのにマッチしない？そんなときは、サーバーリージョンを変更してみよう。1クリックで切り替えられる便利な方法を紹介します。",
+      "slug": "twitch-follower-checker",
+      "path": "src/data/blog/_2023/twitch-follower-checker.mdx",
+      "similarity": 0.9951275504616095
+    },
+    {
+      "pubDatetime": "2020-01-10T18:00:00.000Z",
+      "title": "GASを使ってTwitterの情報をDiscordに流す方法",
+      "featured": false,
+      "tags": [
+        "Google Apps Script",
+        "Discord",
+        "X (ex-Twitter)",
+        "個人開発"
+      ],
+      "category": "技術関連",
+      "description": "GASを使ってTwitterの情報をDiscordに流す方法",
+      "slug": "gas-twitter-to-discord",
+      "path": "src/data/blog/_2020/gas-twitter-to-discord.md",
+      "similarity": 0.5104545114809692
+    },
+    {
+      "pubDatetime": "2020-01-09T18:00:00.000Z",
+      "title": "GASを使ってTwitter自動いいねbotを作ってみた",
+      "featured": true,
+      "tags": [
+        "Google Apps Script",
+        "X (ex-Twitter)",
+        "個人開発",
+        "雑記"
+      ],
+      "category": "技術関連",
+      "description": "GASを使ってTwitter自動いいねbotを作ってみた",
+      "slug": "gas-twitter-like-bot",
+      "path": "src/data/blog/_2020/gas-twitter-like-bot.md",
+      "similarity": 0.4970470613678657
+    },
+    {
+      "pubDatetime": "2019-12-05T00:00:00.000Z",
+      "title": "【Minecraft MOD開発】重い計算結果はキャッシュするべし",
+      "featured": false,
+      "tags": [
+        "Minecraft",
+        "Minecraft MOD開発",
+        "Java"
+      ],
+      "category": "技術関連",
+      "description": "foo",
+      "slug": "minecraft-modding-caching-guide",
+      "path": "src/data/blog/_2019/minecraft-modding-caching-guide.mdx",
+      "similarity": 0.48092574062855176
+    },
+    {
+      "pubDatetime": "2024-11-28T19:03:02.737Z",
+      "title": "【Deadlock】日本語設定ファイルを作って5万ユーザーに使ってもらった体験記",
+      "featured": false,
+      "tags": [
+        "Deadlock",
+        "Python",
+        "雑記"
+      ],
+      "category": "ゲーム関連",
+      "description": "https://deadlock-japanese.devkey.jp/",
+      "slug": "deadlock-japanese-lessons-learned",
+      "path": "src/data/blog/_2024/deadlock-japanese-lessons-learned.mdx",
+      "similarity": 0.4558166868756379
+    }
+  ],
+  "src/data/blog/_2023/dva-c02-pass-experience.md": [
+    {
+      "pubDatetime": "2025-03-24T15:57:52.737Z",
+      "title": "AWS Certified DevOps Engineer - Professional（DOP-C02）合格体験記",
+      "featured": false,
+      "ogImage": "../../../assets/images/blog/2021/AWS.JPG",
+      "tags": [
+        "AWS",
+        "資格取得"
+      ],
+      "description": "この度、AWS Certified DevOps Engineer - Professional（DOP-C02）試験に無事合格できましたので、その体験をシェアします。",
+      "slug": "dop-c02-pass-experience",
+      "path": "src/data/blog/_2025/dop-c02-pass-experience.md",
+      "similarity": 0.8546116113886125
+    },
+    {
+      "pubDatetime": "2024-09-30T15:57:52.737Z",
+      "title": "AWS Certified Security - Specialty（SCS-C02）合格体験記",
+      "featured": false,
+      "ogImage": "../../../assets/images/blog/2021/AWS.JPG",
+      "tags": [
+        "AWS",
+        "資格取得"
+      ],
+      "description": "この度、AWS Certified Security - Specialty（SCS-C02）試験に無事合格できましたので、その体験をシェアします。",
+      "slug": "scs-c02-pass-experience",
+      "path": "src/data/blog/_2024/scs-c02-pass-experience.md",
+      "similarity": 0.8546116113886125
+    },
+    {
+      "pubDatetime": "2023-10-02T15:57:52.737Z",
+      "title": "AWS Certified SysOps Administrator - Associate（SOA-C02）合格体験記",
+      "featured": false,
+      "ogImage": "../../../assets/images/blog/2021/AWS.JPG",
+      "tags": [
+        "AWS",
+        "資格取得"
+      ],
+      "description": "この度、AWS Certified SysOps Administrator - Associate（SOA-C02）試験に無事合格できましたので、その体験を共有します。",
+      "slug": "soa-c02-pass-experience",
+      "path": "src/data/blog/_2023/soa-c02-pass-experience.md",
+      "similarity": 0.8294361271834352
+    },
+    {
+      "pubDatetime": "2024-04-01T15:57:52.737Z",
+      "title": "AWS Certified Data Analytics - Specialty（DAS-C01）合格体験記",
+      "featured": false,
+      "ogImage": "../../../assets/images/blog/2021/AWS.JPG",
+      "tags": [
+        "AWS",
+        "資格取得"
+      ],
+      "description": "この度、AWS Certified Data Analytics - Specialty（DAS-C01） に合格しましたので、試験の体験記を共有します。",
+      "slug": "das-c01-pass-experience",
+      "path": "src/data/blog/_2024/das-c01-pass-experience.md",
+      "similarity": 0.8076541565513451
+    },
+    {
+      "pubDatetime": "2022-09-29T15:57:52.737Z",
+      "title": "AWS Certified Solutions Architect - Associate (SAA-C03) 合格体験記",
+      "featured": false,
+      "ogImage": "../../../assets/images/blog/2021/AWS.JPG",
+      "tags": [
+        "AWS"
+      ],
+      "category": "資格取得",
+      "description": "先日 AWS Certified Solutions Architect – Associate（SAA-C03）を受験したので、情報共有します。2022年9月に SAA-C02 から SAA-C03 へ試験が切り替わったため、新試験の特徴を共有します。",
+      "slug": "saa-c03-pass-experience",
+      "path": "src/data/blog/_2022/saa-c03-pass-experience.md",
+      "similarity": 0.7146829883886372
+    }
+  ],
+  "src/data/blog/_2023/chintai-floor-tile-review.md": [
+    {
+      "pubDatetime": "2024-12-06T18:00:00.000Z",
+      "title": "WIP 【湿気・臭い】新築のコンクリート打ちっぱなしマンションに1年住んでみた感想",
+      "featured": false,
+      "tags": [
+        "雑記"
+      ],
+      "category": "リモートワーク",
+      "description": "あ",
+      "slug": "exposed-concrete-chintai-1year-review",
+      "path": "src/data/blog/_2024/exposed-concrete-chintai-1year-review.md",
+      "similarity": 0.4433221146864766
+    },
+    {
+      "pubDatetime": "2024-11-28T19:03:02.737Z",
+      "title": "【Deadlock】日本語設定ファイルを作って5万ユーザーに使ってもらった体験記",
+      "featured": false,
+      "tags": [
+        "Deadlock",
+        "Python",
+        "雑記"
+      ],
+      "category": "ゲーム関連",
+      "description": "https://deadlock-japanese.devkey.jp/",
+      "slug": "deadlock-japanese-lessons-learned",
+      "path": "src/data/blog/_2024/deadlock-japanese-lessons-learned.mdx",
+      "similarity": 0.41351819503624465
+    },
+    {
+      "pubDatetime": "2020-07-14T21:00:00.000Z",
+      "title": "【一生モノ】金属で作られた最強のマウスパッドをレビュー【NINJA RATMAT 者 -SHA-】",
+      "featured": false,
+      "tags": [
+        "デバイス"
+      ],
+      "category": "ゲーム関連",
+      "description": "【一生モノ】金属で作られた最強のマウスパッドをレビュー【NINJA RATMAT 者 -SHA-】",
+      "slug": "ninja-ratmat-sha-review",
+      "path": "src/data/blog/_2020/ninja-ratmat-sha-review.mdx",
+      "similarity": 0.3902797852525888
+    },
+    {
+      "pubDatetime": "2023-09-17T18:51:13.737Z",
+      "title": "SUUMOで特定の不動産会社を非表示にする方法【JavaScript/ブックマークレット】",
+      "featured": false,
+      "tags": [
+        "JavaScript"
+      ],
+      "description": "ああ",
+      "slug": "suumo-hide-agency-bookmarklet",
+      "path": "src/data/blog/_2023/suumo-hide-agency-bookmarklet.md",
+      "similarity": 0.3793132605368035
+    },
+    {
+      "pubDatetime": "2025-05-01T18:00:00.000Z",
+      "title": "株で200万円損切りした話。学んだ〇つのこと",
+      "featured": true,
+      "tags": [
+        "株式投資"
+      ],
+      "category": "投資",
+      "description": "株で200万円損切りした話。備忘録として残しているが、同じような境遇になって辛い思いをしている人に少しでも助けになれば良い。",
+      "slug": "stock-2m-jpy-loss-cut-lessons",
+      "path": "src/data/blog/_2025/stock-2m-jpy-loss-cut-lessons.md",
+      "similarity": 0.3666275765170344
+    }
+  ],
+  "src/data/blog/_2022/saa-c03-pass-experience.md": [
+    {
+      "pubDatetime": "2024-04-01T15:57:52.737Z",
+      "title": "AWS Certified Data Analytics - Specialty（DAS-C01）合格体験記",
+      "featured": false,
+      "ogImage": "../../../assets/images/blog/2021/AWS.JPG",
+      "tags": [
+        "AWS",
+        "資格取得"
+      ],
+      "description": "この度、AWS Certified Data Analytics - Specialty（DAS-C01） に合格しましたので、試験の体験記を共有します。",
+      "slug": "das-c01-pass-experience",
+      "path": "src/data/blog/_2024/das-c01-pass-experience.md",
+      "similarity": 0.7617416641912896
+    },
+    {
+      "pubDatetime": "2023-10-02T15:57:52.737Z",
+      "title": "AWS Certified SysOps Administrator - Associate（SOA-C02）合格体験記",
+      "featured": false,
+      "ogImage": "../../../assets/images/blog/2021/AWS.JPG",
+      "tags": [
+        "AWS",
+        "資格取得"
+      ],
+      "description": "この度、AWS Certified SysOps Administrator - Associate（SOA-C02）試験に無事合格できましたので、その体験を共有します。",
+      "slug": "soa-c02-pass-experience",
+      "path": "src/data/blog/_2023/soa-c02-pass-experience.md",
+      "similarity": 0.7376901399494877
+    },
+    {
+      "pubDatetime": "2025-03-24T15:57:52.737Z",
+      "title": "AWS Certified DevOps Engineer - Professional（DOP-C02）合格体験記",
+      "featured": false,
+      "ogImage": "../../../assets/images/blog/2021/AWS.JPG",
+      "tags": [
+        "AWS",
+        "資格取得"
+      ],
+      "description": "この度、AWS Certified DevOps Engineer - Professional（DOP-C02）試験に無事合格できましたので、その体験をシェアします。",
+      "slug": "dop-c02-pass-experience",
+      "path": "src/data/blog/_2025/dop-c02-pass-experience.md",
+      "similarity": 0.7251849821426929
+    },
+    {
+      "pubDatetime": "2024-09-30T15:57:52.737Z",
+      "title": "AWS Certified Security - Specialty（SCS-C02）合格体験記",
+      "featured": false,
+      "ogImage": "../../../assets/images/blog/2021/AWS.JPG",
+      "tags": [
+        "AWS",
+        "資格取得"
+      ],
+      "description": "この度、AWS Certified Security - Specialty（SCS-C02）試験に無事合格できましたので、その体験をシェアします。",
+      "slug": "scs-c02-pass-experience",
+      "path": "src/data/blog/_2024/scs-c02-pass-experience.md",
+      "similarity": 0.7251849821426929
+    },
+    {
+      "pubDatetime": "2023-03-29T15:57:52.737Z",
+      "title": "AWS Certified Data Analytics - Specialty（DAS-C01）合格体験記",
+      "featured": false,
+      "ogImage": "../../../assets/images/blog/2021/AWS.JPG",
+      "tags": [
+        "AWS",
+        "資格取得"
+      ],
+      "description": "AWS Certified Data Analytics - Specialty（DAS-C01）試験に合格しましたので、その体験をシェアします。",
+      "slug": "dva-c02-pass-experience",
+      "path": "src/data/blog/_2023/dva-c02-pass-experience.md",
+      "similarity": 0.7146829883886372
+    }
+  ],
+  "src/data/blog/_2022/gundam-evolution-fps-optimization.md": [
+    {
+      "pubDatetime": "2024-09-08T18:00:00.000Z",
+      "title": "【Deadlock】FPS最大値を設定する方法",
+      "featured": false,
+      "category": "ゲーム関連",
+      "tags": [
+        "Deadlock",
+        "ゲームライフハック",
+        "最適化"
+      ],
+      "description": "どうやら現状、Deadlock のゲーム内設定からは FPS の最大値は直接いじれず、デフォルトは出るだけ出る挙動っぽいです。今回は恒久対応として Steam の起動オプションから設定する方法を共有します。",
+      "slug": "deadlock-fps-max-launch-options",
+      "path": "src/data/blog/_2024/deadlock-fps-max-launch-options.mdx",
+      "similarity": 0.650843975850661
+    },
+    {
+      "pubDatetime": "2019-04-09T08:51:13.737Z",
+      "title": "【PUBG】タイムゾーンを1クリックで変更する方法【東京⇔北京】",
+      "featured": false,
+      "tags": [
+        "PUBG",
+        "ゲームライフハック"
+      ],
+      "category": "ゲーム関連",
+      "description": "1クリックで簡単にPUBGの鯖を変更する方法を紹介します。",
+      "slug": "change-timezone-pubg",
+      "path": "src/data/blog/_2019/change-timezone-pubg.md",
+      "similarity": 0.511983824950771
+    },
+    {
+      "pubDatetime": "2019-02-25T18:00:00.000Z",
+      "modDatetime": "2020-03-08T18:00:00.000Z",
+      "title": "PUBG試合分析システムを公開しました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "ゲームライフハック",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システム Steins.GG を公開しました！",
+      "slug": "release-steinsgg",
+      "path": "src/data/blog/_2019/release-steinsgg.md",
+      "similarity": 0.5009715670978133
+    },
+    {
+      "pubDatetime": "2024-11-28T19:03:02.737Z",
+      "title": "【Deadlock】日本語設定ファイルを作って5万ユーザーに使ってもらった体験記",
+      "featured": false,
+      "tags": [
+        "Deadlock",
+        "Python",
+        "雑記"
+      ],
+      "category": "ゲーム関連",
+      "description": "https://deadlock-japanese.devkey.jp/",
+      "slug": "deadlock-japanese-lessons-learned",
+      "path": "src/data/blog/_2024/deadlock-japanese-lessons-learned.mdx",
+      "similarity": 0.4993295832413248
+    },
+    {
+      "pubDatetime": "2020-04-15T18:00:00.000Z",
+      "title": "PUBG試合分析システムをリニューアルしました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システムに大型アップデートが入りました",
+      "slug": "renewal-steinsgg",
+      "path": "src/data/blog/_2020/renewal-steinsgg.md",
+      "similarity": 0.4711134423873821
+    }
+  ],
+  "src/data/blog/_2022/best-online-boardgames.mdx": [
+    {
+      "pubDatetime": "2020-07-22T21:00:00.000Z",
+      "title": "マウスバンジーをさらに高い位置から吊るして最強にする方法",
+      "featured": false,
+      "tags": [
+        "デバイス",
+        "ゲームライフハック"
+      ],
+      "category": "ゲーム関連",
+      "description": "マウスバンジーを使いやすくカスタマイズする裏技を紹介します。",
+      "slug": "mouse-bungee-customize",
+      "path": "src/data/blog/_2020/mouse-bungee-customize.mdx",
+      "similarity": 0.5566501403756169
+    },
+    {
+      "pubDatetime": "2020-04-15T18:00:00.000Z",
+      "title": "PUBG試合分析システムをリニューアルしました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システムに大型アップデートが入りました",
+      "slug": "renewal-steinsgg",
+      "path": "src/data/blog/_2020/renewal-steinsgg.md",
+      "similarity": 0.5427860318393689
+    },
+    {
+      "pubDatetime": "2020-03-09T18:00:00.000Z",
+      "title": "PUBG試合分析システム Steins.GG を限定公開しました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システム Steins.GG を限定公開しました",
+      "slug": "steinsgg-is-back",
+      "path": "src/data/blog/_2020/steinsgg-is-back.md",
+      "similarity": 0.5179134517355576
+    },
+    {
+      "pubDatetime": "2025-10-15T00:00:00.000Z",
+      "title": "【随時更新】IT系の職場で実際に使ってるよくある英語定型文",
+      "featured": false,
+      "tags": [
+        "雑記"
+      ],
+      "category": "英語",
+      "description": "foo",
+      "slug": "my-english-template",
+      "path": "src/data/blog/_2025/my-english-template.mdx",
+      "similarity": 0.4802497232047186
+    },
+    {
+      "pubDatetime": "2024-11-28T19:03:02.737Z",
+      "title": "【Deadlock】日本語設定ファイルを作って5万ユーザーに使ってもらった体験記",
+      "featured": false,
+      "tags": [
+        "Deadlock",
+        "Python",
+        "雑記"
+      ],
+      "category": "ゲーム関連",
+      "description": "https://deadlock-japanese.devkey.jp/",
+      "slug": "deadlock-japanese-lessons-learned",
+      "path": "src/data/blog/_2024/deadlock-japanese-lessons-learned.mdx",
+      "similarity": 0.46809515362154036
+    }
+  ],
+  "src/data/blog/_2021/youtube-music-discord.mdx": [
+    {
+      "pubDatetime": "2020-01-10T18:00:00.000Z",
+      "title": "GASを使ってTwitterの情報をDiscordに流す方法",
+      "featured": false,
+      "tags": [
+        "Google Apps Script",
+        "Discord",
+        "X (ex-Twitter)",
+        "個人開発"
+      ],
+      "category": "技術関連",
+      "description": "GASを使ってTwitterの情報をDiscordに流す方法",
+      "slug": "gas-twitter-to-discord",
+      "path": "src/data/blog/_2020/gas-twitter-to-discord.md",
+      "similarity": 0.5295752734104496
+    },
+    {
+      "pubDatetime": "2020-01-09T18:00:00.000Z",
+      "title": "GASを使ってTwitter自動いいねbotを作ってみた",
+      "featured": true,
+      "tags": [
+        "Google Apps Script",
+        "X (ex-Twitter)",
+        "個人開発",
+        "雑記"
+      ],
+      "category": "技術関連",
+      "description": "GASを使ってTwitter自動いいねbotを作ってみた",
+      "slug": "gas-twitter-like-bot",
+      "path": "src/data/blog/_2020/gas-twitter-like-bot.md",
+      "similarity": 0.5275273164970595
+    },
+    {
+      "pubDatetime": "2020-03-09T18:00:00.000Z",
+      "title": "PUBG試合分析システム Steins.GG を限定公開しました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システム Steins.GG を限定公開しました",
+      "slug": "steinsgg-is-back",
+      "path": "src/data/blog/_2020/steinsgg-is-back.md",
+      "similarity": 0.49028913514848965
+    },
+    {
+      "pubDatetime": "2019-02-25T18:00:00.000Z",
+      "modDatetime": "2020-03-08T18:00:00.000Z",
+      "title": "PUBG試合分析システムを公開しました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "ゲームライフハック",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システム Steins.GG を公開しました！",
+      "slug": "release-steinsgg",
+      "path": "src/data/blog/_2019/release-steinsgg.md",
+      "similarity": 0.48601265579847297
+    },
+    {
+      "pubDatetime": "2025-05-01T18:00:00.000Z",
+      "modDatetime": "2025-11-26T18:00:00.000Z",
+      "title": "Twitterのビデオクリップ機能をChrome拡張で再現してみた",
+      "featured": true,
+      "tags": [
+        "Google Chrome Extensions",
+        "X (ex-Twitter)",
+        "個人開発",
+        "JavaScript",
+        "雑記"
+      ],
+      "category": "技術関連",
+      "description": "ああ",
+      "slug": "release-easy-video-trimmer-for-x",
+      "path": "src/data/blog/_2025/release-easy-video-trimmer-for-x.mdx",
+      "similarity": 0.4639962295782672
+    }
+  ],
+  "src/data/blog/_2021/ffmpeg-wasm-browser.md": [
+    {
+      "pubDatetime": "2025-05-01T18:00:00.000Z",
+      "modDatetime": "2025-11-26T18:00:00.000Z",
+      "title": "Twitterのビデオクリップ機能をChrome拡張で再現してみた",
+      "featured": true,
+      "tags": [
+        "Google Chrome Extensions",
+        "X (ex-Twitter)",
+        "個人開発",
+        "JavaScript",
+        "雑記"
+      ],
+      "category": "技術関連",
+      "description": "ああ",
+      "slug": "release-easy-video-trimmer-for-x",
+      "path": "src/data/blog/_2025/release-easy-video-trimmer-for-x.mdx",
+      "similarity": 0.5673379694882958
+    },
+    {
+      "pubDatetime": "2020-03-09T18:00:00.000Z",
+      "title": "PUBG試合分析システム Steins.GG を限定公開しました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システム Steins.GG を限定公開しました",
+      "slug": "steinsgg-is-back",
+      "path": "src/data/blog/_2020/steinsgg-is-back.md",
+      "similarity": 0.5165955165035998
+    },
+    {
+      "pubDatetime": "2019-02-25T18:00:00.000Z",
+      "modDatetime": "2020-03-08T18:00:00.000Z",
+      "title": "PUBG試合分析システムを公開しました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "ゲームライフハック",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システム Steins.GG を公開しました！",
+      "slug": "release-steinsgg",
+      "path": "src/data/blog/_2019/release-steinsgg.md",
+      "similarity": 0.4829397362587283
+    },
+    {
+      "pubDatetime": "2024-11-28T19:03:02.737Z",
+      "title": "【Deadlock】日本語設定ファイルを作って5万ユーザーに使ってもらった体験記",
+      "featured": false,
+      "tags": [
+        "Deadlock",
+        "Python",
+        "雑記"
+      ],
+      "category": "ゲーム関連",
+      "description": "https://deadlock-japanese.devkey.jp/",
+      "slug": "deadlock-japanese-lessons-learned",
+      "path": "src/data/blog/_2024/deadlock-japanese-lessons-learned.mdx",
+      "similarity": 0.4765453599263119
+    },
+    {
+      "pubDatetime": "2019-04-09T08:51:13.737Z",
+      "title": "【PUBG】タイムゾーンを1クリックで変更する方法【東京⇔北京】",
+      "featured": false,
+      "tags": [
+        "PUBG",
+        "ゲームライフハック"
+      ],
+      "category": "ゲーム関連",
+      "description": "1クリックで簡単にPUBGの鯖を変更する方法を紹介します。",
+      "slug": "change-timezone-pubg",
+      "path": "src/data/blog/_2019/change-timezone-pubg.md",
+      "similarity": 0.4715128577912103
+    }
+  ],
+  "src/data/blog/_2021/2021-bestbuy.md": [
+    {
+      "pubDatetime": "2020-07-22T21:00:00.000Z",
+      "title": "マウスバンジーをさらに高い位置から吊るして最強にする方法",
+      "featured": false,
+      "tags": [
+        "デバイス",
+        "ゲームライフハック"
+      ],
+      "category": "ゲーム関連",
+      "description": "マウスバンジーを使いやすくカスタマイズする裏技を紹介します。",
+      "slug": "mouse-bungee-customize",
+      "path": "src/data/blog/_2020/mouse-bungee-customize.mdx",
+      "similarity": 0.46074904886528195
+    },
+    {
+      "pubDatetime": "2019-08-10T00:00:00.000Z",
+      "title": "PUBG LITE を日本からプレイする方法",
+      "featured": false,
+      "tags": [
+        "PUBG"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG LITE を日本からプレイする方法",
+      "slug": "how-to-play-pubg-lite",
+      "path": "src/data/blog/_2019/how-to-play-pubg-lite.mdx",
+      "similarity": 0.33735545581805465
+    },
+    {
+      "pubDatetime": "2019-07-15T21:22:51.127Z",
+      "title": "静音リングを使って最強のゲーミングキーボードにカスタマイズする方法",
+      "featured": false,
+      "tags": [
+        "デバイス",
+        "ゲームライフハック"
+      ],
+      "category": "ゲーム関連",
+      "description": "メカニカルキーボードの入力速度を速くする裏技を紹介します。",
+      "slug": "corsair-keyboard-customize",
+      "path": "src/data/blog/_2019/corsair-keyboard-customize.mdx",
+      "similarity": 0.33699110350827877
+    },
+    {
+      "pubDatetime": "2024-12-06T18:00:00.000Z",
+      "title": "WIP 【湿気・臭い】新築のコンクリート打ちっぱなしマンションに1年住んでみた感想",
+      "featured": false,
+      "tags": [
+        "雑記"
+      ],
+      "category": "リモートワーク",
+      "description": "あ",
+      "slug": "exposed-concrete-chintai-1year-review",
+      "path": "src/data/blog/_2024/exposed-concrete-chintai-1year-review.md",
+      "similarity": 0.32907632729467257
+    },
+    {
+      "pubDatetime": "2022-12-29T00:00:00.000Z",
+      "title": "【随時更新】ネットで無料で遊べるおすすめのボードゲーム一覧",
+      "featured": true,
+      "tags": [
+        "ボードゲーム"
+      ],
+      "category": "ゲーム関連",
+      "description": "foo",
+      "slug": "best-online-boardgames",
+      "path": "src/data/blog/_2022/best-online-boardgames.mdx",
+      "similarity": 0.3286098649903649
+    }
+  ],
+  "src/data/blog/_2020/steinsgg-is-back.md": [
+    {
+      "pubDatetime": "2020-04-15T18:00:00.000Z",
+      "title": "PUBG試合分析システムをリニューアルしました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システムに大型アップデートが入りました",
+      "slug": "renewal-steinsgg",
+      "path": "src/data/blog/_2020/renewal-steinsgg.md",
+      "similarity": 0.6773224722778918
+    },
+    {
+      "pubDatetime": "2020-03-08T18:00:00.000Z",
+      "title": "【PUBG】PUBG API の使い方【API Key 作成から】",
+      "featured": false,
+      "tags": [
+        "PUBG"
+      ],
+      "category": "技術関連",
+      "description": "PUBGのAPIキーの取得方法を紹介します。",
+      "slug": "how-to-create-pubg-api-key",
+      "path": "src/data/blog/_2020/how-to-create-pubg-api-key.md",
+      "similarity": 0.6618153434738097
+    },
+    {
+      "pubDatetime": "2019-08-10T00:00:00.000Z",
+      "title": "PUBG LITE を日本からプレイする方法",
+      "featured": false,
+      "tags": [
+        "PUBG"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG LITE を日本からプレイする方法",
+      "slug": "how-to-play-pubg-lite",
+      "path": "src/data/blog/_2019/how-to-play-pubg-lite.mdx",
+      "similarity": 0.6527326295642382
+    },
+    {
+      "pubDatetime": "2020-01-10T18:00:00.000Z",
+      "title": "GASを使ってTwitterの情報をDiscordに流す方法",
+      "featured": false,
+      "tags": [
+        "Google Apps Script",
+        "Discord",
+        "X (ex-Twitter)",
+        "個人開発"
+      ],
+      "category": "技術関連",
+      "description": "GASを使ってTwitterの情報をDiscordに流す方法",
+      "slug": "gas-twitter-to-discord",
+      "path": "src/data/blog/_2020/gas-twitter-to-discord.md",
+      "similarity": 0.6054579630818622
+    },
+    {
+      "pubDatetime": "2019-02-25T18:00:00.000Z",
+      "modDatetime": "2020-03-08T18:00:00.000Z",
+      "title": "PUBG試合分析システムを公開しました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "ゲームライフハック",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システム Steins.GG を公開しました！",
+      "slug": "release-steinsgg",
+      "path": "src/data/blog/_2019/release-steinsgg.md",
+      "similarity": 0.6044841157518656
+    }
+  ],
+  "src/data/blog/_2020/renewal-steinsgg.md": [
+    {
+      "pubDatetime": "2019-02-25T18:00:00.000Z",
+      "modDatetime": "2020-03-08T18:00:00.000Z",
+      "title": "PUBG試合分析システムを公開しました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "ゲームライフハック",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システム Steins.GG を公開しました！",
+      "slug": "release-steinsgg",
+      "path": "src/data/blog/_2019/release-steinsgg.md",
+      "similarity": 0.7988510110117792
+    },
+    {
+      "pubDatetime": "2020-03-09T18:00:00.000Z",
+      "title": "PUBG試合分析システム Steins.GG を限定公開しました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システム Steins.GG を限定公開しました",
+      "slug": "steinsgg-is-back",
+      "path": "src/data/blog/_2020/steinsgg-is-back.md",
+      "similarity": 0.6773224722778918
+    },
+    {
+      "pubDatetime": "2020-01-03T18:00:00.000Z",
+      "title": "【PUBG】1部リーグのプロチームのアナリストを務めた体験記",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "雑記"
+      ],
+      "category": "ゲーム関連",
+      "description": "2シーズンほど PUBG JAPAN SERIES Grade 1 に出場しているプロチームにアナリストとして加入していた当時の体験記。",
+      "slug": "my-pro-league-analyst-experience",
+      "path": "src/data/blog/_2020/my-pro-league-analyst-experience.mdx",
+      "similarity": 0.6356804825768063
+    },
+    {
+      "pubDatetime": "2024-11-28T19:03:02.737Z",
+      "title": "【Deadlock】日本語設定ファイルを作って5万ユーザーに使ってもらった体験記",
+      "featured": false,
+      "tags": [
+        "Deadlock",
+        "Python",
+        "雑記"
+      ],
+      "category": "ゲーム関連",
+      "description": "https://deadlock-japanese.devkey.jp/",
+      "slug": "deadlock-japanese-lessons-learned",
+      "path": "src/data/blog/_2024/deadlock-japanese-lessons-learned.mdx",
+      "similarity": 0.5619325304429049
+    },
+    {
+      "pubDatetime": "2019-08-10T00:00:00.000Z",
+      "title": "PUBG LITE を日本からプレイする方法",
+      "featured": false,
+      "tags": [
+        "PUBG"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG LITE を日本からプレイする方法",
+      "slug": "how-to-play-pubg-lite",
+      "path": "src/data/blog/_2019/how-to-play-pubg-lite.mdx",
+      "similarity": 0.5476346456948451
+    }
+  ],
+  "src/data/blog/_2020/ninja-ratmat-sha-review.mdx": [
+    {
+      "pubDatetime": "2019-07-15T21:22:51.127Z",
+      "title": "静音リングを使って最強のゲーミングキーボードにカスタマイズする方法",
+      "featured": false,
+      "tags": [
+        "デバイス",
+        "ゲームライフハック"
+      ],
+      "category": "ゲーム関連",
+      "description": "メカニカルキーボードの入力速度を速くする裏技を紹介します。",
+      "slug": "corsair-keyboard-customize",
+      "path": "src/data/blog/_2019/corsair-keyboard-customize.mdx",
+      "similarity": 0.5685967846328611
+    },
+    {
+      "pubDatetime": "2025-05-01T18:00:00.000Z",
+      "title": "株で200万円損切りした話。学んだ〇つのこと",
+      "featured": true,
+      "tags": [
+        "株式投資"
+      ],
+      "category": "投資",
+      "description": "株で200万円損切りした話。備忘録として残しているが、同じような境遇になって辛い思いをしている人に少しでも助けになれば良い。",
+      "slug": "stock-2m-jpy-loss-cut-lessons",
+      "path": "src/data/blog/_2025/stock-2m-jpy-loss-cut-lessons.md",
+      "similarity": 0.553412170251491
+    },
+    {
+      "pubDatetime": "2024-11-28T19:03:02.737Z",
+      "title": "【Deadlock】日本語設定ファイルを作って5万ユーザーに使ってもらった体験記",
+      "featured": false,
+      "tags": [
+        "Deadlock",
+        "Python",
+        "雑記"
+      ],
+      "category": "ゲーム関連",
+      "description": "https://deadlock-japanese.devkey.jp/",
+      "slug": "deadlock-japanese-lessons-learned",
+      "path": "src/data/blog/_2024/deadlock-japanese-lessons-learned.mdx",
+      "similarity": 0.551982177289434
+    },
+    {
+      "pubDatetime": "2020-07-22T21:00:00.000Z",
+      "title": "マウスバンジーをさらに高い位置から吊るして最強にする方法",
+      "featured": false,
+      "tags": [
+        "デバイス",
+        "ゲームライフハック"
+      ],
+      "category": "ゲーム関連",
+      "description": "マウスバンジーを使いやすくカスタマイズする裏技を紹介します。",
+      "slug": "mouse-bungee-customize",
+      "path": "src/data/blog/_2020/mouse-bungee-customize.mdx",
+      "similarity": 0.5281934526408425
+    },
+    {
+      "pubDatetime": "2019-12-20T18:00:00.000Z",
+      "modDatetime": "2024-04-09T18:00:00.000Z",
+      "title": "【懐かしい】筋トレ系Youtuber・インフルエンサーまとめ【随時更新】",
+      "featured": false,
+      "tags": [
+        "YouTube"
+      ],
+      "category": "筋トレ関連",
+      "description": "Youtuber黎明期時代の懐かしい筋トレ系Youtuber・インフルエンサーを紹介します！",
+      "slug": "fitness-youtuber-list",
+      "path": "src/data/blog/_2019/fitness-youtuber-list.mdx",
+      "similarity": 0.5126217619783758
+    }
+  ],
+  "src/data/blog/_2020/my-pro-league-analyst-experience.mdx": [
+    {
+      "pubDatetime": "2019-02-25T18:00:00.000Z",
+      "modDatetime": "2020-03-08T18:00:00.000Z",
+      "title": "PUBG試合分析システムを公開しました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "ゲームライフハック",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システム Steins.GG を公開しました！",
+      "slug": "release-steinsgg",
+      "path": "src/data/blog/_2019/release-steinsgg.md",
+      "similarity": 0.7419401324672652
+    },
+    {
+      "pubDatetime": "2020-04-15T18:00:00.000Z",
+      "title": "PUBG試合分析システムをリニューアルしました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システムに大型アップデートが入りました",
+      "slug": "renewal-steinsgg",
+      "path": "src/data/blog/_2020/renewal-steinsgg.md",
+      "similarity": 0.6356804825768063
+    },
+    {
+      "pubDatetime": "2019-08-10T00:00:00.000Z",
+      "title": "PUBG LITE を日本からプレイする方法",
+      "featured": false,
+      "tags": [
+        "PUBG"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG LITE を日本からプレイする方法",
+      "slug": "how-to-play-pubg-lite",
+      "path": "src/data/blog/_2019/how-to-play-pubg-lite.mdx",
+      "similarity": 0.5554693550248518
+    },
+    {
+      "pubDatetime": "2024-11-28T19:03:02.737Z",
+      "title": "【Deadlock】日本語設定ファイルを作って5万ユーザーに使ってもらった体験記",
+      "featured": false,
+      "tags": [
+        "Deadlock",
+        "Python",
+        "雑記"
+      ],
+      "category": "ゲーム関連",
+      "description": "https://deadlock-japanese.devkey.jp/",
+      "slug": "deadlock-japanese-lessons-learned",
+      "path": "src/data/blog/_2024/deadlock-japanese-lessons-learned.mdx",
+      "similarity": 0.547235593392016
+    },
+    {
+      "pubDatetime": "2025-05-01T18:00:00.000Z",
+      "title": "株で200万円損切りした話。学んだ〇つのこと",
+      "featured": true,
+      "tags": [
+        "株式投資"
+      ],
+      "category": "投資",
+      "description": "株で200万円損切りした話。備忘録として残しているが、同じような境遇になって辛い思いをしている人に少しでも助けになれば良い。",
+      "slug": "stock-2m-jpy-loss-cut-lessons",
+      "path": "src/data/blog/_2025/stock-2m-jpy-loss-cut-lessons.md",
+      "similarity": 0.5439798648655416
+    }
+  ],
+  "src/data/blog/_2020/mouse-bungee-customize.mdx": [
+    {
+      "pubDatetime": "2020-03-09T18:00:00.000Z",
+      "title": "PUBG試合分析システム Steins.GG を限定公開しました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システム Steins.GG を限定公開しました",
+      "slug": "steinsgg-is-back",
+      "path": "src/data/blog/_2020/steinsgg-is-back.md",
+      "similarity": 0.5626266285150764
+    },
+    {
+      "pubDatetime": "2022-12-29T00:00:00.000Z",
+      "title": "【随時更新】ネットで無料で遊べるおすすめのボードゲーム一覧",
+      "featured": true,
+      "tags": [
+        "ボードゲーム"
+      ],
+      "category": "ゲーム関連",
+      "description": "foo",
+      "slug": "best-online-boardgames",
+      "path": "src/data/blog/_2022/best-online-boardgames.mdx",
+      "similarity": 0.5566501403756169
+    },
+    {
+      "pubDatetime": "2020-07-14T21:00:00.000Z",
+      "title": "【一生モノ】金属で作られた最強のマウスパッドをレビュー【NINJA RATMAT 者 -SHA-】",
+      "featured": false,
+      "tags": [
+        "デバイス"
+      ],
+      "category": "ゲーム関連",
+      "description": "【一生モノ】金属で作られた最強のマウスパッドをレビュー【NINJA RATMAT 者 -SHA-】",
+      "slug": "ninja-ratmat-sha-review",
+      "path": "src/data/blog/_2020/ninja-ratmat-sha-review.mdx",
+      "similarity": 0.5281934526408425
+    },
+    {
+      "pubDatetime": "2019-07-15T21:22:51.127Z",
+      "title": "静音リングを使って最強のゲーミングキーボードにカスタマイズする方法",
+      "featured": false,
+      "tags": [
+        "デバイス",
+        "ゲームライフハック"
+      ],
+      "category": "ゲーム関連",
+      "description": "メカニカルキーボードの入力速度を速くする裏技を紹介します。",
+      "slug": "corsair-keyboard-customize",
+      "path": "src/data/blog/_2019/corsair-keyboard-customize.mdx",
+      "similarity": 0.526329560424589
+    },
+    {
+      "pubDatetime": "2019-08-10T00:00:00.000Z",
+      "title": "PUBG LITE を日本からプレイする方法",
+      "featured": false,
+      "tags": [
+        "PUBG"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG LITE を日本からプレイする方法",
+      "slug": "how-to-play-pubg-lite",
+      "path": "src/data/blog/_2019/how-to-play-pubg-lite.mdx",
+      "similarity": 0.5164896475503651
+    }
+  ],
+  "src/data/blog/_2020/how-to-create-pubg-api-key.md": [
+    {
+      "pubDatetime": "2020-03-09T18:00:00.000Z",
+      "title": "PUBG試合分析システム Steins.GG を限定公開しました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システム Steins.GG を限定公開しました",
+      "slug": "steinsgg-is-back",
+      "path": "src/data/blog/_2020/steinsgg-is-back.md",
+      "similarity": 0.6618153434738097
+    },
+    {
+      "pubDatetime": "2019-02-25T18:00:00.000Z",
+      "modDatetime": "2020-03-08T18:00:00.000Z",
+      "title": "PUBG試合分析システムを公開しました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "ゲームライフハック",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システム Steins.GG を公開しました！",
+      "slug": "release-steinsgg",
+      "path": "src/data/blog/_2019/release-steinsgg.md",
+      "similarity": 0.556372290936485
+    },
+    {
+      "pubDatetime": "2020-04-15T18:00:00.000Z",
+      "title": "PUBG試合分析システムをリニューアルしました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システムに大型アップデートが入りました",
+      "slug": "renewal-steinsgg",
+      "path": "src/data/blog/_2020/renewal-steinsgg.md",
+      "similarity": 0.5418687500559635
+    },
+    {
+      "pubDatetime": "2019-06-26T00:00:00.000Z",
+      "title": "PUBG FACEIT を日本からプレイしてよいのか調べてみた",
+      "featured": false,
+      "tags": [
+        "PUBG",
+        "FACEIT"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG FACEIT を日本国内からプレイできるのか、プレイしてもよいのかを調査してまとめました。",
+      "slug": "pubg-faceit",
+      "path": "src/data/blog/_2019/pubg-faceit.mdx",
+      "similarity": 0.5276962100243505
+    },
+    {
+      "pubDatetime": "2020-01-03T18:00:00.000Z",
+      "title": "【PUBG】1部リーグのプロチームのアナリストを務めた体験記",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "雑記"
+      ],
+      "category": "ゲーム関連",
+      "description": "2シーズンほど PUBG JAPAN SERIES Grade 1 に出場しているプロチームにアナリストとして加入していた当時の体験記。",
+      "slug": "my-pro-league-analyst-experience",
+      "path": "src/data/blog/_2020/my-pro-league-analyst-experience.mdx",
+      "similarity": 0.5137545239989395
+    }
+  ],
+  "src/data/blog/_2020/gas-twitter-to-discord.md": [
+    {
+      "pubDatetime": "2020-01-09T18:00:00.000Z",
+      "title": "GASを使ってTwitter自動いいねbotを作ってみた",
+      "featured": true,
+      "tags": [
+        "Google Apps Script",
+        "X (ex-Twitter)",
+        "個人開発",
+        "雑記"
+      ],
+      "category": "技術関連",
+      "description": "GASを使ってTwitter自動いいねbotを作ってみた",
+      "slug": "gas-twitter-like-bot",
+      "path": "src/data/blog/_2020/gas-twitter-like-bot.md",
+      "similarity": 0.7089784288495518
+    },
+    {
+      "pubDatetime": "2019-12-05T00:00:00.000Z",
+      "title": "【Minecraft MOD開発】重い計算結果はキャッシュするべし",
+      "featured": false,
+      "tags": [
+        "Minecraft",
+        "Minecraft MOD開発",
+        "Java"
+      ],
+      "category": "技術関連",
+      "description": "foo",
+      "slug": "minecraft-modding-caching-guide",
+      "path": "src/data/blog/_2019/minecraft-modding-caching-guide.mdx",
+      "similarity": 0.6520915962956089
+    },
+    {
+      "pubDatetime": "2020-03-09T18:00:00.000Z",
+      "title": "PUBG試合分析システム Steins.GG を限定公開しました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システム Steins.GG を限定公開しました",
+      "slug": "steinsgg-is-back",
+      "path": "src/data/blog/_2020/steinsgg-is-back.md",
+      "similarity": 0.6054579630818622
+    },
+    {
+      "pubDatetime": "2019-02-25T18:00:00.000Z",
+      "modDatetime": "2020-03-08T18:00:00.000Z",
+      "title": "PUBG試合分析システムを公開しました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "ゲームライフハック",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システム Steins.GG を公開しました！",
+      "slug": "release-steinsgg",
+      "path": "src/data/blog/_2019/release-steinsgg.md",
+      "similarity": 0.5852871712270876
+    },
+    {
+      "pubDatetime": "2019-08-10T00:00:00.000Z",
+      "title": "PUBG LITE を日本からプレイする方法",
+      "featured": false,
+      "tags": [
+        "PUBG"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG LITE を日本からプレイする方法",
+      "slug": "how-to-play-pubg-lite",
+      "path": "src/data/blog/_2019/how-to-play-pubg-lite.mdx",
+      "similarity": 0.5553563611093416
+    }
+  ],
+  "src/data/blog/_2020/gas-twitter-like-bot.md": [
+    {
+      "pubDatetime": "2020-01-10T18:00:00.000Z",
+      "title": "GASを使ってTwitterの情報をDiscordに流す方法",
+      "featured": false,
+      "tags": [
+        "Google Apps Script",
+        "Discord",
+        "X (ex-Twitter)",
+        "個人開発"
+      ],
+      "category": "技術関連",
+      "description": "GASを使ってTwitterの情報をDiscordに流す方法",
+      "slug": "gas-twitter-to-discord",
+      "path": "src/data/blog/_2020/gas-twitter-to-discord.md",
+      "similarity": 0.7089784288495518
+    },
+    {
+      "pubDatetime": "2024-11-28T19:03:02.737Z",
+      "title": "【Deadlock】日本語設定ファイルを作って5万ユーザーに使ってもらった体験記",
+      "featured": false,
+      "tags": [
+        "Deadlock",
+        "Python",
+        "雑記"
+      ],
+      "category": "ゲーム関連",
+      "description": "https://deadlock-japanese.devkey.jp/",
+      "slug": "deadlock-japanese-lessons-learned",
+      "path": "src/data/blog/_2024/deadlock-japanese-lessons-learned.mdx",
+      "similarity": 0.6156963336967234
+    },
+    {
+      "pubDatetime": "2025-05-01T18:00:00.000Z",
+      "modDatetime": "2025-11-26T18:00:00.000Z",
+      "title": "Twitterのビデオクリップ機能をChrome拡張で再現してみた",
+      "featured": true,
+      "tags": [
+        "Google Chrome Extensions",
+        "X (ex-Twitter)",
+        "個人開発",
+        "JavaScript",
+        "雑記"
+      ],
+      "category": "技術関連",
+      "description": "ああ",
+      "slug": "release-easy-video-trimmer-for-x",
+      "path": "src/data/blog/_2025/release-easy-video-trimmer-for-x.mdx",
+      "similarity": 0.613456202078446
+    },
+    {
+      "pubDatetime": "2019-02-25T18:00:00.000Z",
+      "modDatetime": "2020-03-08T18:00:00.000Z",
+      "title": "PUBG試合分析システムを公開しました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "ゲームライフハック",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システム Steins.GG を公開しました！",
+      "slug": "release-steinsgg",
+      "path": "src/data/blog/_2019/release-steinsgg.md",
+      "similarity": 0.5928992003659048
+    },
+    {
+      "pubDatetime": "2020-04-15T18:00:00.000Z",
+      "title": "PUBG試合分析システムをリニューアルしました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システムに大型アップデートが入りました",
+      "slug": "renewal-steinsgg",
+      "path": "src/data/blog/_2020/renewal-steinsgg.md",
+      "similarity": 0.5455928485017402
+    }
+  ],
+  "src/data/blog/_2020/best_protein.mdx": [
+    {
+      "pubDatetime": "2019-12-20T18:00:00.000Z",
+      "modDatetime": "2024-04-09T18:00:00.000Z",
+      "title": "【懐かしい】筋トレ系Youtuber・インフルエンサーまとめ【随時更新】",
+      "featured": false,
+      "tags": [
+        "YouTube"
+      ],
+      "category": "筋トレ関連",
+      "description": "Youtuber黎明期時代の懐かしい筋トレ系Youtuber・インフルエンサーを紹介します！",
+      "slug": "fitness-youtuber-list",
+      "path": "src/data/blog/_2019/fitness-youtuber-list.mdx",
+      "similarity": 0.47540425574594986
+    },
+    {
+      "pubDatetime": "2020-07-14T21:00:00.000Z",
+      "title": "【一生モノ】金属で作られた最強のマウスパッドをレビュー【NINJA RATMAT 者 -SHA-】",
+      "featured": false,
+      "tags": [
+        "デバイス"
+      ],
+      "category": "ゲーム関連",
+      "description": "【一生モノ】金属で作られた最強のマウスパッドをレビュー【NINJA RATMAT 者 -SHA-】",
+      "slug": "ninja-ratmat-sha-review",
+      "path": "src/data/blog/_2020/ninja-ratmat-sha-review.mdx",
+      "similarity": 0.4443525480728157
+    },
+    {
+      "pubDatetime": "2019-07-15T21:22:51.127Z",
+      "title": "静音リングを使って最強のゲーミングキーボードにカスタマイズする方法",
+      "featured": false,
+      "tags": [
+        "デバイス",
+        "ゲームライフハック"
+      ],
+      "category": "ゲーム関連",
+      "description": "メカニカルキーボードの入力速度を速くする裏技を紹介します。",
+      "slug": "corsair-keyboard-customize",
+      "path": "src/data/blog/_2019/corsair-keyboard-customize.mdx",
+      "similarity": 0.4041171624884
+    },
+    {
+      "pubDatetime": "2019-12-20T18:00:00.000Z",
+      "modDatetime": "2024-04-09T18:00:00.000Z",
+      "title": "【懐かしい】海外筋トレ系Youtuber・インフルエンサーまとめ【随時更新】",
+      "featured": false,
+      "tags": [
+        "YouTube"
+      ],
+      "category": "筋トレ関連",
+      "description": "Youtuber黎明期時代の懐かしい筋トレ系Youtuber・インフルエンサーを紹介します！",
+      "slug": "fitness-youtuber-list-global",
+      "path": "src/data/blog/_2019/fitness-youtuber-list-global.mdx",
+      "similarity": 0.40136334715798044
+    },
+    {
+      "pubDatetime": "2024-11-28T19:03:02.737Z",
+      "title": "【Deadlock】日本語設定ファイルを作って5万ユーザーに使ってもらった体験記",
+      "featured": false,
+      "tags": [
+        "Deadlock",
+        "Python",
+        "雑記"
+      ],
+      "category": "ゲーム関連",
+      "description": "https://deadlock-japanese.devkey.jp/",
+      "slug": "deadlock-japanese-lessons-learned",
+      "path": "src/data/blog/_2024/deadlock-japanese-lessons-learned.mdx",
+      "similarity": 0.399204246778089
+    }
+  ],
+  "src/data/blog/_2019/release-steinsgg.md": [
+    {
+      "pubDatetime": "2020-04-15T18:00:00.000Z",
+      "title": "PUBG試合分析システムをリニューアルしました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システムに大型アップデートが入りました",
+      "slug": "renewal-steinsgg",
+      "path": "src/data/blog/_2020/renewal-steinsgg.md",
+      "similarity": 0.7988510110117792
+    },
+    {
+      "pubDatetime": "2020-01-03T18:00:00.000Z",
+      "title": "【PUBG】1部リーグのプロチームのアナリストを務めた体験記",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "雑記"
+      ],
+      "category": "ゲーム関連",
+      "description": "2シーズンほど PUBG JAPAN SERIES Grade 1 に出場しているプロチームにアナリストとして加入していた当時の体験記。",
+      "slug": "my-pro-league-analyst-experience",
+      "path": "src/data/blog/_2020/my-pro-league-analyst-experience.mdx",
+      "similarity": 0.7419401324672652
+    },
+    {
+      "pubDatetime": "2019-08-10T00:00:00.000Z",
+      "title": "PUBG LITE を日本からプレイする方法",
+      "featured": false,
+      "tags": [
+        "PUBG"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG LITE を日本からプレイする方法",
+      "slug": "how-to-play-pubg-lite",
+      "path": "src/data/blog/_2019/how-to-play-pubg-lite.mdx",
+      "similarity": 0.6062468106287675
+    },
+    {
+      "pubDatetime": "2020-03-09T18:00:00.000Z",
+      "title": "PUBG試合分析システム Steins.GG を限定公開しました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システム Steins.GG を限定公開しました",
+      "slug": "steinsgg-is-back",
+      "path": "src/data/blog/_2020/steinsgg-is-back.md",
+      "similarity": 0.6044841157518656
+    },
+    {
+      "pubDatetime": "2020-01-09T18:00:00.000Z",
+      "title": "GASを使ってTwitter自動いいねbotを作ってみた",
+      "featured": true,
+      "tags": [
+        "Google Apps Script",
+        "X (ex-Twitter)",
+        "個人開発",
+        "雑記"
+      ],
+      "category": "技術関連",
+      "description": "GASを使ってTwitter自動いいねbotを作ってみた",
+      "slug": "gas-twitter-like-bot",
+      "path": "src/data/blog/_2020/gas-twitter-like-bot.md",
+      "similarity": 0.5928992003659048
+    }
+  ],
+  "src/data/blog/_2019/pubg-faceit.mdx": [
+    {
+      "pubDatetime": "2019-08-10T00:00:00.000Z",
+      "title": "PUBG LITE を日本からプレイする方法",
+      "featured": false,
+      "tags": [
+        "PUBG"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG LITE を日本からプレイする方法",
+      "slug": "how-to-play-pubg-lite",
+      "path": "src/data/blog/_2019/how-to-play-pubg-lite.mdx",
+      "similarity": 0.7183661273408083
+    },
+    {
+      "pubDatetime": "2019-02-25T18:00:00.000Z",
+      "modDatetime": "2020-03-08T18:00:00.000Z",
+      "title": "PUBG試合分析システムを公開しました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "ゲームライフハック",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システム Steins.GG を公開しました！",
+      "slug": "release-steinsgg",
+      "path": "src/data/blog/_2019/release-steinsgg.md",
+      "similarity": 0.5901310790317777
+    },
+    {
+      "pubDatetime": "2019-04-09T08:51:13.737Z",
+      "title": "【PUBG】タイムゾーンを1クリックで変更する方法【東京⇔北京】",
+      "featured": false,
+      "tags": [
+        "PUBG",
+        "ゲームライフハック"
+      ],
+      "category": "ゲーム関連",
+      "description": "1クリックで簡単にPUBGの鯖を変更する方法を紹介します。",
+      "slug": "change-timezone-pubg",
+      "path": "src/data/blog/_2019/change-timezone-pubg.md",
+      "similarity": 0.5487799640613014
+    },
+    {
+      "pubDatetime": "2020-03-08T18:00:00.000Z",
+      "title": "【PUBG】PUBG API の使い方【API Key 作成から】",
+      "featured": false,
+      "tags": [
+        "PUBG"
+      ],
+      "category": "技術関連",
+      "description": "PUBGのAPIキーの取得方法を紹介します。",
+      "slug": "how-to-create-pubg-api-key",
+      "path": "src/data/blog/_2020/how-to-create-pubg-api-key.md",
+      "similarity": 0.5276962100243505
+    },
+    {
+      "pubDatetime": "2020-01-03T18:00:00.000Z",
+      "title": "【PUBG】1部リーグのプロチームのアナリストを務めた体験記",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "雑記"
+      ],
+      "category": "ゲーム関連",
+      "description": "2シーズンほど PUBG JAPAN SERIES Grade 1 に出場しているプロチームにアナリストとして加入していた当時の体験記。",
+      "slug": "my-pro-league-analyst-experience",
+      "path": "src/data/blog/_2020/my-pro-league-analyst-experience.mdx",
+      "similarity": 0.5140735787130845
+    }
+  ],
+  "src/data/blog/_2019/minecraft-modding-caching-guide.mdx": [
+    {
+      "pubDatetime": "2020-01-10T18:00:00.000Z",
+      "title": "GASを使ってTwitterの情報をDiscordに流す方法",
+      "featured": false,
+      "tags": [
+        "Google Apps Script",
+        "Discord",
+        "X (ex-Twitter)",
+        "個人開発"
+      ],
+      "category": "技術関連",
+      "description": "GASを使ってTwitterの情報をDiscordに流す方法",
+      "slug": "gas-twitter-to-discord",
+      "path": "src/data/blog/_2020/gas-twitter-to-discord.md",
+      "similarity": 0.6520915962956089
+    },
+    {
+      "pubDatetime": "2019-12-20T18:00:00.000Z",
+      "modDatetime": "2024-04-09T18:00:00.000Z",
+      "title": "【懐かしい】海外筋トレ系Youtuber・インフルエンサーまとめ【随時更新】",
+      "featured": false,
+      "tags": [
+        "YouTube"
+      ],
+      "category": "筋トレ関連",
+      "description": "Youtuber黎明期時代の懐かしい筋トレ系Youtuber・インフルエンサーを紹介します！",
+      "slug": "fitness-youtuber-list-global",
+      "path": "src/data/blog/_2019/fitness-youtuber-list-global.mdx",
+      "similarity": 0.6171455993076567
+    },
+    {
+      "pubDatetime": "2019-08-10T00:00:00.000Z",
+      "title": "PUBG LITE を日本からプレイする方法",
+      "featured": false,
+      "tags": [
+        "PUBG"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG LITE を日本からプレイする方法",
+      "slug": "how-to-play-pubg-lite",
+      "path": "src/data/blog/_2019/how-to-play-pubg-lite.mdx",
+      "similarity": 0.5891647420715492
+    },
+    {
+      "pubDatetime": "2020-03-09T18:00:00.000Z",
+      "title": "PUBG試合分析システム Steins.GG を限定公開しました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システム Steins.GG を限定公開しました",
+      "slug": "steinsgg-is-back",
+      "path": "src/data/blog/_2020/steinsgg-is-back.md",
+      "similarity": 0.5597975924782973
+    },
+    {
+      "pubDatetime": "2019-02-25T18:00:00.000Z",
+      "modDatetime": "2020-03-08T18:00:00.000Z",
+      "title": "PUBG試合分析システムを公開しました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "ゲームライフハック",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システム Steins.GG を公開しました！",
+      "slug": "release-steinsgg",
+      "path": "src/data/blog/_2019/release-steinsgg.md",
+      "similarity": 0.529046008699055
+    }
+  ],
+  "src/data/blog/_2019/how-to-play-pubg-lite.mdx": [
+    {
+      "pubDatetime": "2019-06-26T00:00:00.000Z",
+      "title": "PUBG FACEIT を日本からプレイしてよいのか調べてみた",
+      "featured": false,
+      "tags": [
+        "PUBG",
+        "FACEIT"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG FACEIT を日本国内からプレイできるのか、プレイしてもよいのかを調査してまとめました。",
+      "slug": "pubg-faceit",
+      "path": "src/data/blog/_2019/pubg-faceit.mdx",
+      "similarity": 0.7183661273408083
+    },
+    {
+      "pubDatetime": "2020-03-09T18:00:00.000Z",
+      "title": "PUBG試合分析システム Steins.GG を限定公開しました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システム Steins.GG を限定公開しました",
+      "slug": "steinsgg-is-back",
+      "path": "src/data/blog/_2020/steinsgg-is-back.md",
+      "similarity": 0.6527326295642382
+    },
+    {
+      "pubDatetime": "2019-02-25T18:00:00.000Z",
+      "modDatetime": "2020-03-08T18:00:00.000Z",
+      "title": "PUBG試合分析システムを公開しました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "ゲームライフハック",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システム Steins.GG を公開しました！",
+      "slug": "release-steinsgg",
+      "path": "src/data/blog/_2019/release-steinsgg.md",
+      "similarity": 0.6062468106287675
+    },
+    {
+      "pubDatetime": "2019-12-05T00:00:00.000Z",
+      "title": "【Minecraft MOD開発】重い計算結果はキャッシュするべし",
+      "featured": false,
+      "tags": [
+        "Minecraft",
+        "Minecraft MOD開発",
+        "Java"
+      ],
+      "category": "技術関連",
+      "description": "foo",
+      "slug": "minecraft-modding-caching-guide",
+      "path": "src/data/blog/_2019/minecraft-modding-caching-guide.mdx",
+      "similarity": 0.5891647420715492
+    },
+    {
+      "pubDatetime": "2020-01-03T18:00:00.000Z",
+      "title": "【PUBG】1部リーグのプロチームのアナリストを務めた体験記",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "雑記"
+      ],
+      "category": "ゲーム関連",
+      "description": "2シーズンほど PUBG JAPAN SERIES Grade 1 に出場しているプロチームにアナリストとして加入していた当時の体験記。",
+      "slug": "my-pro-league-analyst-experience",
+      "path": "src/data/blog/_2020/my-pro-league-analyst-experience.mdx",
+      "similarity": 0.5554693550248518
+    }
+  ],
+  "src/data/blog/_2019/fitness-youtuber-list.mdx": [
+    {
+      "pubDatetime": "2019-12-20T18:00:00.000Z",
+      "modDatetime": "2024-04-09T18:00:00.000Z",
+      "title": "【懐かしい】海外筋トレ系Youtuber・インフルエンサーまとめ【随時更新】",
+      "featured": false,
+      "tags": [
+        "YouTube"
+      ],
+      "category": "筋トレ関連",
+      "description": "Youtuber黎明期時代の懐かしい筋トレ系Youtuber・インフルエンサーを紹介します！",
+      "slug": "fitness-youtuber-list-global",
+      "path": "src/data/blog/_2019/fitness-youtuber-list-global.mdx",
+      "similarity": 0.5730604163009908
+    },
+    {
+      "pubDatetime": "2024-11-28T19:03:02.737Z",
+      "title": "【Deadlock】日本語設定ファイルを作って5万ユーザーに使ってもらった体験記",
+      "featured": false,
+      "tags": [
+        "Deadlock",
+        "Python",
+        "雑記"
+      ],
+      "category": "ゲーム関連",
+      "description": "https://deadlock-japanese.devkey.jp/",
+      "slug": "deadlock-japanese-lessons-learned",
+      "path": "src/data/blog/_2024/deadlock-japanese-lessons-learned.mdx",
+      "similarity": 0.5481174650633461
+    },
+    {
+      "pubDatetime": "2020-01-09T18:00:00.000Z",
+      "title": "GASを使ってTwitter自動いいねbotを作ってみた",
+      "featured": true,
+      "tags": [
+        "Google Apps Script",
+        "X (ex-Twitter)",
+        "個人開発",
+        "雑記"
+      ],
+      "category": "技術関連",
+      "description": "GASを使ってTwitter自動いいねbotを作ってみた",
+      "slug": "gas-twitter-like-bot",
+      "path": "src/data/blog/_2020/gas-twitter-like-bot.md",
+      "similarity": 0.5367081463043165
+    },
+    {
+      "pubDatetime": "2020-01-03T18:00:00.000Z",
+      "title": "【PUBG】1部リーグのプロチームのアナリストを務めた体験記",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "雑記"
+      ],
+      "category": "ゲーム関連",
+      "description": "2シーズンほど PUBG JAPAN SERIES Grade 1 に出場しているプロチームにアナリストとして加入していた当時の体験記。",
+      "slug": "my-pro-league-analyst-experience",
+      "path": "src/data/blog/_2020/my-pro-league-analyst-experience.mdx",
+      "similarity": 0.5158576791832051
+    },
+    {
+      "pubDatetime": "2020-07-14T21:00:00.000Z",
+      "title": "【一生モノ】金属で作られた最強のマウスパッドをレビュー【NINJA RATMAT 者 -SHA-】",
+      "featured": false,
+      "tags": [
+        "デバイス"
+      ],
+      "category": "ゲーム関連",
+      "description": "【一生モノ】金属で作られた最強のマウスパッドをレビュー【NINJA RATMAT 者 -SHA-】",
+      "slug": "ninja-ratmat-sha-review",
+      "path": "src/data/blog/_2020/ninja-ratmat-sha-review.mdx",
+      "similarity": 0.5126217619783758
+    }
+  ],
+  "src/data/blog/_2019/fitness-youtuber-list-global.mdx": [
+    {
+      "pubDatetime": "2019-12-05T00:00:00.000Z",
+      "title": "【Minecraft MOD開発】重い計算結果はキャッシュするべし",
+      "featured": false,
+      "tags": [
+        "Minecraft",
+        "Minecraft MOD開発",
+        "Java"
+      ],
+      "category": "技術関連",
+      "description": "foo",
+      "slug": "minecraft-modding-caching-guide",
+      "path": "src/data/blog/_2019/minecraft-modding-caching-guide.mdx",
+      "similarity": 0.6171455993076567
+    },
+    {
+      "pubDatetime": "2019-12-20T18:00:00.000Z",
+      "modDatetime": "2024-04-09T18:00:00.000Z",
+      "title": "【懐かしい】筋トレ系Youtuber・インフルエンサーまとめ【随時更新】",
+      "featured": false,
+      "tags": [
+        "YouTube"
+      ],
+      "category": "筋トレ関連",
+      "description": "Youtuber黎明期時代の懐かしい筋トレ系Youtuber・インフルエンサーを紹介します！",
+      "slug": "fitness-youtuber-list",
+      "path": "src/data/blog/_2019/fitness-youtuber-list.mdx",
+      "similarity": 0.5730604163009908
+    },
+    {
+      "pubDatetime": "2020-01-10T18:00:00.000Z",
+      "title": "GASを使ってTwitterの情報をDiscordに流す方法",
+      "featured": false,
+      "tags": [
+        "Google Apps Script",
+        "Discord",
+        "X (ex-Twitter)",
+        "個人開発"
+      ],
+      "category": "技術関連",
+      "description": "GASを使ってTwitterの情報をDiscordに流す方法",
+      "slug": "gas-twitter-to-discord",
+      "path": "src/data/blog/_2020/gas-twitter-to-discord.md",
+      "similarity": 0.5490191934639029
+    },
+    {
+      "pubDatetime": "2019-08-10T00:00:00.000Z",
+      "title": "PUBG LITE を日本からプレイする方法",
+      "featured": false,
+      "tags": [
+        "PUBG"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG LITE を日本からプレイする方法",
+      "slug": "how-to-play-pubg-lite",
+      "path": "src/data/blog/_2019/how-to-play-pubg-lite.mdx",
+      "similarity": 0.5094068917163415
+    },
+    {
+      "pubDatetime": "2019-02-25T18:00:00.000Z",
+      "modDatetime": "2020-03-08T18:00:00.000Z",
+      "title": "PUBG試合分析システムを公開しました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "ゲームライフハック",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システム Steins.GG を公開しました！",
+      "slug": "release-steinsgg",
+      "path": "src/data/blog/_2019/release-steinsgg.md",
+      "similarity": 0.4786227012771436
+    }
+  ],
+  "src/data/blog/_2019/corsair-keyboard-customize.mdx": [
+    {
+      "pubDatetime": "2020-07-14T21:00:00.000Z",
+      "title": "【一生モノ】金属で作られた最強のマウスパッドをレビュー【NINJA RATMAT 者 -SHA-】",
+      "featured": false,
+      "tags": [
+        "デバイス"
+      ],
+      "category": "ゲーム関連",
+      "description": "【一生モノ】金属で作られた最強のマウスパッドをレビュー【NINJA RATMAT 者 -SHA-】",
+      "slug": "ninja-ratmat-sha-review",
+      "path": "src/data/blog/_2020/ninja-ratmat-sha-review.mdx",
+      "similarity": 0.5685967846328611
+    },
+    {
+      "pubDatetime": "2024-11-28T19:03:02.737Z",
+      "title": "【Deadlock】日本語設定ファイルを作って5万ユーザーに使ってもらった体験記",
+      "featured": false,
+      "tags": [
+        "Deadlock",
+        "Python",
+        "雑記"
+      ],
+      "category": "ゲーム関連",
+      "description": "https://deadlock-japanese.devkey.jp/",
+      "slug": "deadlock-japanese-lessons-learned",
+      "path": "src/data/blog/_2024/deadlock-japanese-lessons-learned.mdx",
+      "similarity": 0.5596101827011283
+    },
+    {
+      "pubDatetime": "2019-02-25T18:00:00.000Z",
+      "modDatetime": "2020-03-08T18:00:00.000Z",
+      "title": "PUBG試合分析システムを公開しました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "ゲームライフハック",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システム Steins.GG を公開しました！",
+      "slug": "release-steinsgg",
+      "path": "src/data/blog/_2019/release-steinsgg.md",
+      "similarity": 0.5312155857864871
+    },
+    {
+      "pubDatetime": "2020-07-22T21:00:00.000Z",
+      "title": "マウスバンジーをさらに高い位置から吊るして最強にする方法",
+      "featured": false,
+      "tags": [
+        "デバイス",
+        "ゲームライフハック"
+      ],
+      "category": "ゲーム関連",
+      "description": "マウスバンジーを使いやすくカスタマイズする裏技を紹介します。",
+      "slug": "mouse-bungee-customize",
+      "path": "src/data/blog/_2020/mouse-bungee-customize.mdx",
+      "similarity": 0.526329560424589
+    },
+    {
+      "pubDatetime": "2019-04-09T08:51:13.737Z",
+      "title": "【PUBG】タイムゾーンを1クリックで変更する方法【東京⇔北京】",
+      "featured": false,
+      "tags": [
+        "PUBG",
+        "ゲームライフハック"
+      ],
+      "category": "ゲーム関連",
+      "description": "1クリックで簡単にPUBGの鯖を変更する方法を紹介します。",
+      "slug": "change-timezone-pubg",
+      "path": "src/data/blog/_2019/change-timezone-pubg.md",
+      "similarity": 0.5015971881609852
+    }
+  ],
+  "src/data/blog/_2019/change-timezone-pubg.md": [
+    {
+      "pubDatetime": "2019-02-25T18:00:00.000Z",
+      "modDatetime": "2020-03-08T18:00:00.000Z",
+      "title": "PUBG試合分析システムを公開しました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "ゲームライフハック",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システム Steins.GG を公開しました！",
+      "slug": "release-steinsgg",
+      "path": "src/data/blog/_2019/release-steinsgg.md",
+      "similarity": 0.5614569574581006
+    },
+    {
+      "pubDatetime": "2019-06-26T00:00:00.000Z",
+      "title": "PUBG FACEIT を日本からプレイしてよいのか調べてみた",
+      "featured": false,
+      "tags": [
+        "PUBG",
+        "FACEIT"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG FACEIT を日本国内からプレイできるのか、プレイしてもよいのかを調査してまとめました。",
+      "slug": "pubg-faceit",
+      "path": "src/data/blog/_2019/pubg-faceit.mdx",
+      "similarity": 0.5487799640613014
+    },
+    {
+      "pubDatetime": "2020-04-15T18:00:00.000Z",
+      "title": "PUBG試合分析システムをリニューアルしました",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "個人開発"
+      ],
+      "category": "ゲーム関連",
+      "description": "PUBG試合分析システムに大型アップデートが入りました",
+      "slug": "renewal-steinsgg",
+      "path": "src/data/blog/_2020/renewal-steinsgg.md",
+      "similarity": 0.5312635671792579
+    },
+    {
+      "pubDatetime": "2020-01-03T18:00:00.000Z",
+      "title": "【PUBG】1部リーグのプロチームのアナリストを務めた体験記",
+      "featured": true,
+      "tags": [
+        "PUBG",
+        "雑記"
+      ],
+      "category": "ゲーム関連",
+      "description": "2シーズンほど PUBG JAPAN SERIES Grade 1 に出場しているプロチームにアナリストとして加入していた当時の体験記。",
+      "slug": "my-pro-league-analyst-experience",
+      "path": "src/data/blog/_2020/my-pro-league-analyst-experience.mdx",
+      "similarity": 0.5217724597355465
+    },
+    {
+      "pubDatetime": "2022-12-26T00:00:00.000Z",
+      "title": "【GUNDAM EVOLUTION】低スぺCPUでもFPSを出す方法",
+      "featured": false,
+      "category": "ゲーム関連",
+      "tags": [
+        "GUNDAM EVOLUTION",
+        "ゲームライフハック",
+        "最適化"
+      ],
+      "description": "foo",
+      "slug": "gundam-evolution-fps-optimization",
+      "path": "src/data/blog/_2022/gundam-evolution-fps-optimization.md",
+      "similarity": 0.511983824950771
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+---
+
+pubDatetime: 2019-12-05T00:00:00.000Z
+title: 【Minecraft MOD開発】重い計算結果はキャッシュするべし
+featured: false
+tags:
+  - Minecraft
+  - Minecraft MOD開発
+  - Java
+category: 技術関連
+description: foo
+---
+import ExternalLink from "@/components/ExternalLink.astro";
+export const components = { a: ExternalLink };
+
+> [!note] **この記事は [`steins.gg`](<https://twitter.com/search?q=(steinsgg%20OR%20steins.gg%20OR%20%40SteinsGG)%20until%3A2021-01-01&f=live&src=typed_query>) から移行した記事です。**
+>
+> `.gg` ドメインの維持費が高いため `steins.gg` は閉鎖しました。
+
+おはこんばんちは！
+
+## 目次
+
+## hoge
+
+huga
+
+### 他ライブラリを使う場合は同梱する必要あり
+https://gradleup.com/shadow/
+
+```gradle
+plugins {
+    id 'com.github.johnrengelman.shadow' version '8.1.1'
+}
+
+dependencies {
+    implementation 'com.github.ben-manes.caffeine:caffeine:3.1.8'
+}
+
+shadowJar {
+    // 他の mod と Caffeine バージョンが衝突しないようにパッケージをリロケート
+    relocate 'com.github.benmanes.caffeine', 'your.mod.shaded.caffeine'
+}
+
+reobf {
+    shadowJar {}
+}
+
+build.dependsOn reobfShadowJar
+```
+
+## 実際のコードはこちら
+
+```java
+@Mod(
+        modid = ChunkBlockScannerSampleMod.MODID,
+        name = ChunkBlockScannerSampleMod.NAME,
+        version = ChunkBlockScannerSampleMod.VERSION
+)
+public class ChunkBlockScannerSampleMod {
+    public static final String MODID = "chunk_block_scanner_sample_mod";
+    public static final String NAME = "chunk_block_scanner_sample_mod";
+    public static final String VERSION = "1";
+
+    private static final int SCAN_RADIUS_CHUNKS = 5;
+
+    @EventBusSubscriber(modid = MODID)
+    public static class Events {
+        @SubscribeEvent
+        public static void onRightClick(PlayerInteractEvent.RightClickItem e) {
+            World world = e.getWorld();
+            if (world.isRemote) return;
+            if (e.getHand() != EnumHand.MAIN_HAND) return;
+
+            EntityPlayer player = e.getEntityPlayer();
+            ItemStack held = player.getHeldItemMainhand();
+            if (held.isEmpty()) return;
+
+            Block heldBlock = Block.getBlockFromItem(held.getItem());
+            if (heldBlock != Blocks.DIRT) return;
+
+            final long startMillis = System.currentTimeMillis();
+
+            BlockPos clickPos = e.getEntityPlayer().getPosition();
+            final int cpx = clickPos.getX() >> 4;
+            final int cpz = clickPos.getZ() >> 4;
+
+            Map<Block, Integer> total = new HashMap<>();
+
+            for (int offsetChunkX = -SCAN_RADIUS_CHUNKS; offsetChunkX <= SCAN_RADIUS_CHUNKS; offsetChunkX++) {
+                for (int offsetChunkZ = -SCAN_RADIUS_CHUNKS; offsetChunkZ <= SCAN_RADIUS_CHUNKS; offsetChunkZ++) {
+                    int targetChunkX = cpx + offsetChunkX;
+                    int targetChunkZ = cpz + offsetChunkZ;
+
+                    Map<Block, Integer> part = countOneChunk((WorldServer) world, targetChunkX, targetChunkZ);
+                    part.forEach((k, v) -> total.merge(k, v, Integer::sum));
+                }
+            }
+
+            final long elapsedMillis = System.currentTimeMillis() - startMillis;
+            final int chunkCount = (2 * SCAN_RADIUS_CHUNKS + 1) * (2 * SCAN_RADIUS_CHUNKS + 1);
+            total.forEach((key, value) ->
+                    player.sendMessage(new TextComponentString(key.getRegistryName() + " : " + value)));
+            player.sendMessage(new TextComponentString(
+                    String.format("Scanned %d chunks: elapsed=%dms", chunkCount, elapsedMillis)));
+        }
+    }
+
+    private static Map<Block, Integer> countOneChunk(WorldServer ws, int chunkX, int chunkZ) {
+
+        BlockPos.MutableBlockPos mutablePos = new BlockPos.MutableBlockPos();
+
+        Chunk chunk = ws.getChunk(chunkX, chunkZ);
+        final int chunkOriginBlockX = chunkX << 4;
+        final int chunkOriginBlockZ = chunkZ << 4;
+
+        Map<Block, Integer> countsByBlockMap = new HashMap<>();
+        final int worldHeight = ws.getHeight();
+
+        for (int offsetX = 0; offsetX < 16; offsetX++) {
+            for (int offsetZ = 0; offsetZ < 16; offsetZ++) {
+                for (int yLevel = 0; yLevel < worldHeight; yLevel++) {
+                    mutablePos.setPos(chunkOriginBlockX + offsetX, yLevel, chunkOriginBlockZ + offsetZ);
+                    Block b = chunk.getBlockState(mutablePos).getBlock();
+                    countsByBlockMap.merge(b, 1, Integer::sum);
+                }
+            }
+        }
+
+        return countsByBlockMap;
+    }
+}
+```
+
+```diff
++    private static final Cache<String, Map<Block, Integer>> CHUNK_CACHE =
++            Caffeine.newBuilder()
++                    .maximumSize(512)  // この場合 512 チャンクまでキャッシュ可能
++                    .expireAfterAccess(60, TimeUnit.SECONDS) // 60秒アクセスの無いキャッシュは削除
++                    .build();
+
+  ~~~~~~~~
+  ~~~~~~~~
+
+-                    Map<Block, Integer> part = countOneChunk((WorldServer) world, targetChunkX, targetChunkZ);
++                    Map<Block, Integer> part = CHUNK_CACHE.get(
++                        world.provider.getDimension() + "-" + targetChunkX + "-" + targetChunkZ,
++                        k -> countOneChunk((WorldServer) world, targetChunkX, targetChunkZ));
+```

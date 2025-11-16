@@ -1,0 +1,98 @@
+---
+import AdSense from "./AdSense.astro";
+import rawSimilarities from "../assets/similarities.json";
+import path from "node:path";
+import { Image } from "astro:assets";
+
+interface RelatedPost {
+  pubDatetime: string;
+  modDatetime?: string;
+  title: string;
+  slug: string;
+  featured: boolean;
+  category?: string;
+  ogImage?: string;
+  tags: string[];
+  description: string;
+  path: string;
+  similarity: number;
+  // author?: string;
+}
+
+const similarities = rawSimilarities as Record<string, RelatedPost[]>;
+
+const BASE_RAW_URL =
+  "https://raw.githubusercontent.com/NPJigaK/blog/refs/heads/blog/";
+const BASE_BLOG_URL = "https://blog.devkey.jp/posts/";
+
+function getPostUrl(post: RelatedPost) {
+  const prefix = post.path.includes("/en/") ? "en/" : "";
+  return `/posts/${prefix}${post.slug}/`;
+}
+
+function getImageUrl(post: RelatedPost) {
+  if (!post.ogImage) {
+    const prefix = post.path.includes("/en/") ? "en/" : "";
+    return BASE_BLOG_URL + prefix + post.slug + "/index.png";
+  }
+  const normalizedPath = path.normalize(
+    path.join(path.dirname(post.path), post.ogImage)
+  );
+  return BASE_RAW_URL + normalizedPath;
+}
+
+export interface Props {
+  filePath: string | undefined;
+  maxItems?: number;
+}
+
+const { filePath, maxItems = 5 } = Astro.props;
+const normalized = filePath?.replace(/\\/g, "/");
+const items = (normalized && similarities[normalized]) || [];
+const related = items.slice(0, maxItems);
+const ADS_SLOT_ID = "5781165437";
+---
+
+{
+  related.length > 0 && (
+    <section class="my-8" aria-labelledby="related-title">
+      <h2 id="related-title" class="text-2xl font-semibold tracking-wide">
+        関連記事
+      </h2>
+      <ul class="grid grid-cols-1 gap-6 sm:grid-cols-2">
+        {related.map(post => (
+          <li class="my-6">
+            <div class="relative overflow-hidden rounded border border-border">
+              <a href={getPostUrl(post)} class="block hover:opacity-90">
+                <Image
+                  src={getImageUrl(post)}
+                  alt={post.title}
+                  width={720}
+                  height={405}
+                  class="aspect-video w-full object-cover"
+                  loading="lazy"
+                  format="webp"
+                />
+              </a>
+            </div>
+          </li>
+        ))}
+        <li class="my-6">
+          <div class="relative aspect-video overflow-hidden rounded border border-border">
+            <!--
+            <AdSense
+              slot={ADS_SLOT_ID}
+              class="h-full w-full"
+              width="100%"
+              height="100%"
+            />
+            -->
+            <AdSense
+              slot={ADS_SLOT_ID}
+            />
+          </div>
+        </li>
+      </ul>
+    </section>
+  )
+}

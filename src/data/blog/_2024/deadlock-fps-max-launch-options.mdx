@@ -1,0 +1,29 @@
+---
+
+pubDatetime: 2024-09-08T18:00:00.000Z
+title: 【Deadlock】FPS最大値を設定する方法
+featured: false
+category: ゲーム関連
+tags:
+  - Deadlock
+  - ゲームライフハック
+  - 最適化
+description: どうやら現状、Deadlock のゲーム内設定からは FPS の最大値は直接いじれず、デフォルトは出るだけ出る挙動っぽいです。今回は恒久対応として Steam の起動オプションから設定する方法を共有します。
+---
+import ExternalLink from "@/components/ExternalLink.astro";
+export const components = { a: ExternalLink };
+
+どうやら現状、Deadlock のゲーム内設定からは FPS の最大値は直接いじれず、デフォルトは**出るだけ出る**挙動っぽいです。  
+私がプレイした限りでは、FPS 上限が未設定だと、戦闘や重い描写で FPS が大幅に落ちてカクついたり、GPU の処理が追いつかずクライアントが落ちることがありました。  
+
+公式フォーラムでも 
+[**低設定でも GPU 使用率が 80–100% になる**](https://forums.playdeadlock.com/threads/80-100-gpu-usage-even-on-lowest-settings.7414/) との報告が `Bug Reports` に上がっていました。
+
+上記の `Bug Report` では F7 を押してコンソールから `fps_max [数値]` を入力することで解決できると書かれていますが、毎回起動のたびにコンソールを開いてコマンドを入力するのはめんどうです（どのくらい安定して FPS を出せるかの確認をするのには良い手段だと思います）。    
+
+今回は恒久対応として Steam の起動オプションから設定する方法を共有します。
+
+以下のように Steam の起動オプションに `+fps_max [数値]` を記述することで設定可能です。
+![+fps_max](https://pbs.twimg.com/media/GW7CItebgAAnlJO?format=jpg)
+
+よほどのハイスペック環境でない限り、上限を設定することをおすすめします。

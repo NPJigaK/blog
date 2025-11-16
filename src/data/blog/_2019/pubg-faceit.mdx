@@ -1,0 +1,148 @@
+---
+pubDatetime: 2019-06-26T00:00:00.000Z
+title: PUBG FACEIT を日本からプレイしてよいのか調べてみた
+featured: false
+tags:
+  - PUBG
+  - FACEIT
+category: ゲーム関連
+description: PUBG FACEIT を日本国内からプレイできるのか、プレイしてもよいのかを調査してまとめました。
+---
+import { LinkPreview } from "astro-static-link-preview";
+import ExternalLink from "@/components/ExternalLink.astro";
+export const components = { a: ExternalLink };
+
+> [!note] **この記事は [`steins.gg`](<https://twitter.com/search?q=(steinsgg%20OR%20steins.gg%20OR%20%40SteinsGG)%20until%3A2021-01-01&f=live&src=typed_query>) から移行した記事です。**
+>
+> `.gg` ドメインの維持費が高いため `steins.gg` は閉鎖しました。
+
+ついに PUBG FACEIT のアジア鯖（SEA）が追加されました！  
+日本国内からプレイできるのか、プレイしてもよいのか、Twitter上でも相当議論が巻き起こっているので、個人的に調査して情報まとめました。
+
+<LinkPreview
+  url="https://blog.faceit.com/faceitpubgsea-4a92c5d06d2f"
+  title="PUBG ON FACEIT IN SEA"
+  description="PUBG ON FACEIT IN SEA For translated versions: Thai, Vietnamese, Indonesian We’re excited to announce that we are officially launching FACEIT PUBG in Southeast Asia! FACEIT is set to officially …"
+  image="https://miro.medium.com/v2/resize:fit:640/format:webp/1*uQkM2-8zSxUAkQ5_WK4Z0w.png"
+  theme="facebook"
+/>
+
+## 目次
+
+## 現状
+- FACEIT の仕様上、SEA 以外、つまり日本からのアクセスでは FACEIT に PUBG を追加することができない。  
+- VPN を利用することで FACEIT に PUBG を追加することができる。
+
+## VPN を利用して追加して良いか、FACEIT 公式に問い合わせてみた
+
+質問と回答に、日本語訳(ふんわり)を添えて掲載します。  
+※ 質問文（英語）と回答の日本語訳は、すべて機械翻訳使っているので、細かいニュアンスの違いなどはご容赦ください。
+
+<canvas id="c" data-src="https://pbs.twimg.com/media/D95PhNGU0AEKy2r?format=png"
+        style="max-width:100%;height:auto;display:block"></canvas>
+
+<script is:inline>{`
+  (function () {
+    var c = document.getElementById('c');
+    var url = c.dataset.src;
+    var img = new Image();
+    img.crossOrigin = 'anonymous';
+    img.onload = function () {
+      var ctx = c.getContext('2d');
+      var w = img.naturalWidth, h = img.naturalHeight;
+      c.width = w; c.height = h;          
+      ctx.drawImage(img, 0, 0);
+      var gapX = 0.015, gapY = 0.16;       
+      var maskW = 0.1, maskH = 0.16; 
+      ctx.fillStyle = 'rgba(0,0,0,0.92)';
+      ctx.fillRect((w*gapX)|0, (h*gapY)|0, (w*maskW)|0, (h*maskH)|0);
+    };
+    img.src = url;
+  })();
+`}</script>
+
+import { Image } from "astro:assets";
+
+> Q.  
+> 私は日本に住んでいます。  
+> 日本からのアクセスではFACEIT PUBGを追加することが出来ません。  
+> 
+> そのためVPNを利用して追加しました。  
+> VPNを利用したことにより、私は現在FACEIT PUBGをSEAサーバーで遊ぶことが出来るようになりました。  
+> 
+> これはFACEITの規約違反になりますか？  
+
+<figure>
+  <Image src="https://pbs.twimg.com/media/D95PiWJUIAA3bZS?format=png" alt="" inferSize />
+  <figcaption>
+    引用元ポスト：<a href="https://x.com/KagiJPN/status/1143442439593533440">Xの投稿</a>
+  </figcaption>
+</figure>
+
+> A,  
+> いいえ、規約違反になることはありません。
+
+<canvas id="b" data-src="https://pbs.twimg.com/media/D95PjbMVUAAF_p0?format=png"
+        style="max-width:100%;height:auto;display:block"></canvas>
+
+<script is:inline>{`
+  (function () {
+    var c = document.getElementById('b');
+    var url = c.dataset.src;
+    var img = new Image();
+    img.crossOrigin = 'anonymous';
+    img.onload = function () {
+      var ctx = c.getContext('2d');
+      var w = img.naturalWidth, h = img.naturalHeight;
+      c.width = w; c.height = h;          
+      ctx.drawImage(img, 0, 0);
+      var gapX = 0.015, gapY = 0.08;       
+      var maskW = 0.1, maskH = 0.23; 
+      ctx.fillStyle = 'rgba(0,0,0,0.92)';
+      ctx.fillRect((w*gapX)|0, (h*gapY)|0, (w*maskW)|0, (h*maskH)|0);
+    };
+    img.src = url;
+  })();
+`}</script>
+        
+> Q.  
+> つまり、FACEITにタイトルを追加するのにVPNを使用しても問題ないということですね？
+> 
+> 今現在、日本ではこの問題について議論が行われています。  
+> それを解決するための答えが欲しいです。
+
+<figure>
+  <Image src="https://pbs.twimg.com/media/D95PkOAU0AAFTgw?format=png" alt="" inferSize />
+  <figcaption>
+    引用元ポスト：<a href="https://x.com/KagiJPN/status/1143442442730868736">Xの投稿</a>
+  </figcaption>
+</figure>
+
+> A.  
+> FACEITをやりたいのであれば、それ(VPN接続で追加)をすべきです。  
+> それについては問題ありません、大丈夫です。
+> 
+> 体に気を付けてね。
+
+## 補足
+### PUBG 自体は VPN を使ってもよい？
+PUBG 公式サポート曰く「**VPN を使ったからといってBANされることは無い**」。  
+つまり、VPN の使用を禁止していないと公言している。
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">No, you can not get banned for using a vpn. -S</p>&mdash; PUBG: BATTLEGROUNDS Support (@PUBG_Support) <a href="https://twitter.com/PUBG_Support/status/989466567393140736?ref_src=twsrc%5Etfw">April 26, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+### Steam は VPN を使ってもよい？
+https://steamcommunity.com/discussions/forum/1/350544272218413826/
+
+Steam は、VPN を利用して本来販売されない国でのアイテムの購入、レートが異なる通貨での販売を禁止しているとのこと。
+
+## まとめ
+今回、日本から VPN を利用してアクセスするタイミングはひとつだけで、**FACEIT のアカウントに PUBG を追加する** 際です。
+この時点でアクセスしているのは、FACEIT のみのため、もちろん規約違反になることはない。
+
+**FACEIT のアカウントに PUBG を追加後**、VPN の接続を切り、PUBG なり Steam なりを起動する。  
+
+この時点での IP アドレスは日本になっているため、Steam の規約違反になることは無い。  
+もちろん、FACEIT のカスタムに参加する際は、日本（VPN に繋いでいない自身の IP）からのアクセスになる。
+
+これらのことから FACEIT PUBG を日本国内で遊ぶことで、いずれかの規約に抵触することはなさそうです。  
+**※ ただし、あくまで個人で調査した内容に基づいて判断しているため、FACEIT PUBG の国内利用を保証するものではなく、すべて自己責任となります。**

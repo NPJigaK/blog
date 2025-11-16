@@ -1,0 +1,92 @@
+---
+pubDatetime: 2019-07-15T21:22:51.127Z
+title: 静音リングを使って最強のゲーミングキーボードにカスタマイズする方法
+featured: false
+tags:
+  - デバイス
+  - ゲームライフハック
+category: ゲーム関連
+description: メカニカルキーボードの入力速度を速くする裏技を紹介します。
+---
+import ExternalLink from "@/components/ExternalLink.astro";
+export const components = { a: ExternalLink };
+
+> [!note] **この記事は [`steins.gg`](<https://twitter.com/search?q=(steinsgg%20OR%20steins.gg%20OR%20%40SteinsGG)%20until%3A2021-01-01&f=live&src=typed_query>) から移行した記事です。**
+>
+> `.gg` ドメインの維持費が高いため `steins.gg` は閉鎖しました。
+
+おはこんばんちは！最近、CSGOにどハマりしている主です！
+
+最近、Twitterを眺めていると、**K65（銀軸）** や **K70（銀軸）** を使っている方をよく見かけます。  
+私も `K95` という同じく銀軸のキーボードを使っているのですが、  
+ちょっとした工夫で、銀軸キーボードの入力の速さを最大限に活かせるようになったので、今回はその方法をシェアしようと思います！
+
+> [!TIP] **銀軸以外のメカニカルキーボードにも対応**
+
+![corsair-keyboard-customize](@/assets/images/blog/2020/corsair-keyboard-customize.png)
+
+## 目次
+
+## メカニカルキーボードとは
+
+世の中には様々なキーボードが存在します。
+
+- メンブレン式
+- パンタグラフ式
+- メカニカル式　← 今回の対象
+- 静電気容量無接点方式
+
+メカニカルキーボードは、各キーが独立して動作するため、反応が速く耐久性にも優れているのが特徴です。基本的にゲーマーの多くはこのタイプを選んでいると思います。
+
+## 銀軸とは
+
+銀軸キーボードの魅力は、一言で言えば **「入力がとにかく速い！」** という点です。  
+その理由は、アクチュエーションポイントが非常に浅く設計されていることです。  
+一般的なメカニカルキーボードは約2.1mm程度押し込む必要がありますが、銀軸はキーがわずか1.5mm押し込むだけで入力が認識されるからです。  
+![corsair-keyboard-actuation](@/assets/images/blog/2020/actuation.png)
+
+コンマ何秒の世界で戦ってるFPSゲーマーにはとても相性が良いキーボードだと思います。
+
+### デメリット
+
+しかし、銀軸には大きなデメリットも存在します。アクチュエーションポイントが浅いため、キーを離してから入力が切れるまでにわずかな遅れが出やすいのです。   
+軽く指を浮かせただけでは反応が残ってしまうのが不便な点です。
+| 軸 | タイプ | 入力ON（反応開始）| 入力OFF（反応が切れる位置）|
+|----|-------|-----------------|-----------------------|
+| `銀軸` | リニア | `約1.5mm` | `約2.5mm` |
+| 赤軸 | リニア | 約2.0mm | 約2.0mm |
+| 青軸 | クリッキー | 約2.2mm | 約1.8mm |
+
+## 解決策
+
+そこで、オススメなのが`静音リング`の装着です！本来はキーが底に当たる衝撃音を和らげるクッションですが、装着することでキーが底に達する深さが浅くなり、物理的に反応が切れる位置を浅くすることができます。
+
+![corsair-keyboard-customized](@/assets/images/blog/2020/customized.jpg)
+
+実際に、私は一つのキーに対して静音リングを2枚付けています。  
+
+参考までに、日本最強のCSGOチーム「Absolute」のLazさん, crowさんは、`K70`で静音リングを3枚使用しているそうです。  
+ 
+**引用**: [「目指すはアジアNo.1」CS:GO日本最強SCARZ AbsoluteとレジェンドNoppoインタビュー、6月・台湾『ZOTAC CUP MASTERS CS:GO 2018』アジア代表決定戦に挑む](https://www.negitaku.org/news/n-22557)
+> crow：うーん、僕も結構ゲーミングデバイスは変えちゃう派なんですけれども、キーボードは『Corsair K70 RGB RAPIDFIRE』をずっと使っています。海外のオフライン大会でLazが使っているキーボードを触らせてもらったら同じものなのに何か違うなと思って、「何かやってるの？」と聞いたら静音のリングを入れていると教えてもらって。  
+> 
+> Laz：入力して反応する幅を短くしているんですよ。  
+> 
+> crow：キーの返りが速いんですよ。なのでそのリングを3枚使っていて。これはもういまは変えられないなって  
+
+## 購入した商品
+
+import { LinkPreview } from "astro-static-link-preview";
+
+<LinkPreview
+  url="https://www.amazon.co.jp/dp/B00N85L5QC?th=1&linkCode=ll1&tag=kagijpn07-22&linkId=9d2268dee295f96823eef016ffa1a9f4&language=ja_JP&ref_=as_li_ss_tl"
+  title="SCYTHE サイズ Cherry MX軸対応 静音化リング MXORDP ブラック"
+  description="Cherry MX軸およびKaihua等互換メカニカルスイッチ採用キーボードに対応 打鍵ストロークを約2mm浅くすることで、高速タイピング時のストレスを軽減 サイズ:4.5×2.0mm(内径×厚さ)"
+  image="https://raw.githubusercontent.com/NPJigaK/blog/refs/heads/blog/src/assets/images/blog/2020/SCYTHE-CherryMX-MXORDP.jpg"
+  theme="facebook"
+/>
+
+## さいごに
+
+今回は、銀軸キーボードの入力面でのデメリットを解決するカスタマイズ方法を紹介しました。  
+私個人としては、効果を体感できるほど入力の精度が向上したので、皆さんもぜひ試してみてください！

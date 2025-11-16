@@ -1,0 +1,63 @@
+---
+pubDatetime: 2025-08-18T18:51:13.737Z
+title: AsahiNet 光クロスコース 10GB プランに変更した感想
+featured: false
+tags:
+  - 雑記
+category: リモートワーク
+description: ああ
+---
+
+## usen を使って測定
+
+### before
+![asahi-net-hikari-cross-10gb](@/assets/images/blog/2025/asahi-net-hikari-cross-10gb-before-usen.jpg)
+
+### after
+![asahi-net-hikari-cross-10gb](@/assets/images/blog/2025/asahi-net-hikari-cross-10gb-after-usen.jpg)
+
+## speed-cloudflare-cli を使って測定
+import { Image } from "astro:assets";
+import asahi_net_hikari_cross_og_image from "@/assets/images/blog/2025/asahi-net-hikari-cross_og_image.png";
+
+<a href="https://github.com/KNawm/speed-cloudflare-cli" target="_blank" rel="noopener noreferrer">
+<Image src={asahi_net_hikari_cross_og_image} alt="" />
+</a>
+
+speed-cloudflare-cli を使って測定しました。
+```shell
+npx speed-cloudflare-cli
+```
+
+※ どちらも5回実行した平均値を書いています。
+
+### before
+
+```shell
+ Server location: Tokyo (NRT)
+         Your IP: masked (JP)
+         Latency: 8.76 ms
+          Jitter: 5.72 ms
+     100kB speed: 270.01 Mbps
+       1MB speed: 233.06 Mbps
+      10MB speed: 248.86 Mbps
+      25MB speed: 245.26 Mbps
+     100MB speed: 239.07 Mbps
+  Download speed: 309.35 Mbps
+    Upload speed: 186.17 Mbps
+```
+
+### after
+```shell
+ Server location: Tokyo (NRT)
+         Your IP: masked (JP)
+         Latency: 6.46 ms
+          Jitter: 4.15 ms
+     100kB speed: 1029.35 Mbps
+       1MB speed: 436.42 Mbps
+      10MB speed: 728.12 Mbps
+      25MB speed: 836.33 Mbps
+     100MB speed: 664.05 Mbps
+  Download speed: 1070.37 Mbps
+    Upload speed: 232.96 Mbps
+```

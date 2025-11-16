@@ -1,0 +1,20 @@
+---
+interface Props {
+  href: string;
+}
+
+const { href } = Astro.props;
+const siteOrigin = import.meta.env.SITE ? new URL(import.meta.env.SITE).origin : '';
+---
+
+{
+  href.startsWith(siteOrigin) ? (
+    <a href={href}>
+      <slot />
+    </a>
+  ) : (
+    <a href={href} target="_blank" rel="noopener noreferrer">
+      <slot />
+    </a>
+  )
+}

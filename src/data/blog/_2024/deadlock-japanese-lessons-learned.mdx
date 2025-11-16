@@ -1,0 +1,76 @@
+---
+pubDatetime: 2024-11-28T19:03:02.737Z
+title: 【Deadlock】日本語設定ファイルを作って5万ユーザーに使ってもらった体験記
+featured: false
+tags:
+  - Deadlock
+  - Python
+  - 雑記
+category: ゲーム関連
+description: https://deadlock-japanese.devkey.jp/
+---
+
+aaaaaaaaaaaaaaa
+read文
+
+## 目次
+
+## 嬉しかったこと
+REJECTのYamatoN先生やZETA DIVISIONのXQQさんに紹介頂いたこと。  
+モチベーションはかなり上がりました。
+
+import { LinkPreview } from "astro-static-link-preview";
+import ExternalLink from "@/components/ExternalLink.astro";
+export const components = { a: ExternalLink };
+
+<LinkPreview
+  url="https://iamxqq.notion.site/?v=45e8357bbf0e425faed25702d5971116"
+  title="Deadlock XQQメモ(未完成)"
+  description="Deadlock wikiから引用して来た内容とか自分で検証した内容とか色々 聞きたい事があれば Xで@IAMXQまで 6人でプレイするMOBA+ヒーローシューターという人間が喧嘩する用に作られたゲームなので、気持ちよくプレイしたい人はプリメイド推奨です"
+  image="https://raw.githubusercontent.com/NPJigaK/blog/refs/heads/blog/src/assets/images/blog/2024/Deadlock-XQQメモ.jpg"
+  theme="facebook"
+/>
+<br />
+<iframe
+  class="youtube-responsive"
+  src="https://www.youtube.com/embed/7bYXpvOyBmk?si=xZukOQckgu6cZyxy"
+  title="【1分で分かる】デッドロックを日本語で遊ぶ方法 ※概要欄にURLあり【Deadlock】"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen
+></iframe>
+
+### 多くの利用者に使って頂けた
+アクティブユーザー5万人超の方に使って頂けた。
+![Deadlock-google-analytics](@/assets/images/blog/2024/Deadlock-google-analytics.jpg)
+
+[SNS上でも多くの反応があった。](https://x.com/search?q=https%3A%2F%2Fdeadlock-japanese.devkey.jp%2F&src=typed_query)
+
+元々は自分が日本語でDeadlockをやりたいがために作り始めたのがきっかけだったので、後述にも書くが、この作業量を続けるのであればいつでもやめてやるって気持ちだった。  
+しかし、ありがたいことに多くの方に使って頂いていたので、1ヶ月くらいは義務感で更新を続けていた。
+
+## こだわったポイント
+
+### 要望フォームを作る
+個人で作っているので全キャラ・全アイテムの翻訳をしっかりと目を通すことが物理的にむずかしい。
+そのため、誤訳修正や改善提案は利用者を巻き込んで行っていきたかったので、Google フォームで誰でも要望を送れるようにした。
+
+### 更新履歴を公開する
+https://deadlock-japanese.devkey.jp/#section-update  
+何を変えたか見える化する  
+私がユーザーだった場合、どんなアップデートをしているのか気になるし、そこがブラックボックスなツールは使いたくないなと思ったので。  
+また、要望を出したけど反映したの？してないの？が分からないのも不誠実だと思ったので。
+
+## 大変だったこと
+### 更新頻度が高く、内容変更も多い
+experimental gameplay なだけあって、更新頻度が高すぎること。そして文言の更新が多すぎること。
+正直1人で更新し続けるのは無理でした。と言いつつ無理矢理こなしましたが、物量が多すぎた。。。
+私は Shiv と mo しか使ってない人なので、他のキャラの詳細な挙動を理解するのが大変だった。挙動を理解しないとスラングを訳せないことが多かった。
+
+### スラングが理解できない
+英語つよつよマンじゃないので、スラングが全くと言っていいほど理解できなかった。  
+ChatGPTがあるので質問すればある程度は理解できるが、それでも文脈やニュアンスで揺れがあるので日本語訳にするのが難しかった。  
+ビジネス文書ではなく、ゲーム文書だからこそ言葉遊びが多いのかな。
+
+### 
