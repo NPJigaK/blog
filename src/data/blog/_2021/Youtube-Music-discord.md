@@ -1,0 +1,39 @@
+---
+pubDatetime: 2021-05-18T18:00:00.000Z
+modDatetime: 2025-09-15T18:00:00.000Z
+title: Discord に Youtube Music で再生してる曲を表示させる方法
+featured: false
+tags:
+  - YouTube
+  - Discord
+description: Spotify のように、Discord に Youtube Music で再生してる曲を表示させる方法を紹介
+---
+
+Spotify のように、Discord に Youtube Music で再生してる曲を表示させる方法を紹介
+
+
+## 1. pear-devs/pear-desktop の最新版をダウンロード
+
+https://github.com/pear-devs/pear-desktop/releases  
+上記から最新版をダウンロードしてください。この記事を書いている時点では `1.12.0` が最新版でした。
+
+`Assets` を開いて、拡張子が `.exe` になっているファイルをクリックするとダウンロードが始まります。  
+※ たくさんのファイルが `Assets` に含まれている場合は `Show all 〇〇 assets` をクリックすることで一覧を全て表示出来ます。`.exe` ファイルが見つからない場合は確認してください。
+
+例： `YouTube-Music-1.12.0.exe`  
+※ 追記  
+例： `YouTube-Music-3.11.0.exe` もしくは `YouTube-Music-Web-Setup-3.10.0.exe`
+
+![youtubemusic-discord_1_12_0](@/assets/images/blog/2021/youtubemusic-discord_1_12_0.png)
+
+## 追記 2025/9/15
+最新版 [v3.11.0](https://github.com/pear-devs/pear-desktop/releases/tag/v3.11.0) がリリースされています。  
+見た目もかなりモダンになっていて使いやすいです。
+
+`プラグイン` -> `Discord アクティビティステータス` -> `有効`  
+`プラグイン` -> `Discord アクティビティステータス` -> `自動接続`  
+`プラグイン` -> `Discord アクティビティステータス` -> `Yotube Music で再生`  
+
+を ON にすることで Discord に、以前のバージョンより多くの情報を表示してくれるようになりました。（ジャケット写真や再生している曲の再生時間など）
+
+![youtubemusic-discord_3_11_0](@/assets/images/blog/2021/youtubemusic-discord_3_11_0.png)

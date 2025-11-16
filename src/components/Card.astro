@@ -1,0 +1,68 @@
+---
+import { slugifyStr } from "@/utils/slugify";
+import type { CollectionEntry } from "astro:content";
+import { getPath } from "@/utils/getPath";
+import Datetime from "./Datetime.astro";
+import Tag from "./Tag.astro";
+
+export interface Props extends CollectionEntry<"blog"> {
+  variant?: "h2" | "h3";
+}
+
+const { variant = "h2", data, id, filePath } = Astro.props;
+
+const {
+  title,
+  description,
+  pubDatetime,
+  modDatetime,
+  timezone,
+  category,
+  tags,
+} = data;
+
+const headerProps = {
+  style: { viewTransitionName: slugifyStr(title) },
+  class: "text-lg font-medium decoration-dashed hover:underline",
+};
+
+const categorySlug = category ? slugifyStr(category) : undefined;
+---
+
+<li class="my-6">
+  <a
+    href={getPath(id, filePath)}
+    class="inline-block text-lg font-medium text-accent decoration-dashed underline-offset-4 focus-visible:no-underline focus-visible:underline-offset-0"
+  >
+    {
+      variant === "h2" ? (
+        <h2 {...headerProps}>{title}</h2>
+      ) : (
+        <h3 {...headerProps}>{title}</h3>
+      )
+    }
+  </a>
+  <div class="flex items-center gap-2">
+    <Datetime {pubDatetime} {modDatetime} {timezone} />
+    {
+      category && (
+        <a
+          href={`/categories/${categorySlug}/`}
+          class="text-sm underline decoration-dashed hover:text-accent"
+        >
+          {category}
+        </a>
+      )
+    }
+  </div>
+  <p>{description}</p>
+  {
+    tags && tags.length > 0 && (
+      <ul class="mt-2 flex flex-wrap gap-1">
+        {tags.map(tag => (
+          <Tag tag={slugifyStr(tag)} tagName={tag} size="sm" />
+        ))}
+      </ul>
+    )
+  }
+</li>
