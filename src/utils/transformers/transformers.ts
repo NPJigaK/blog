@@ -94,11 +94,22 @@ async function processFile(filePath: string): Promise<Document | null> {
     }
 
     const plain = await getPlainText(content);
+    const tags = Array.isArray((data as any).tags)
+      ? (data as any).tags
+      : (data as any).tags
+        ? [(data as any).tags]
+        : [];
+    const category = (data as any).category ? [(data as any).category] : [];
+    const metadataPrefix = [...category, ...tags]
+      .map(String)
+      .filter(Boolean)
+      .join(" ");
+    const embeddingText = [metadataPrefix, plain].filter(Boolean).join("\n\n");
     const absPath = path.resolve(filePath);
     const relPath = path.relative(process.cwd(), absPath);
     return {
       path: toPosix(relPath),
-      content: plain,
+      content: embeddingText,
       frontmatter: data as Frontmatter,
     };
   } catch {
@@ -158,7 +169,7 @@ function topSimilar(
         : {
             ...d.frontmatter,
             path: d.path,
-            similarity: +dot(embs[idx], embs[j]).toFixed(2), // higher = more similar
+            similarity: +dot(embs[idx], embs[j]), // higher = more similar
           }
     )
     .filter(Boolean)

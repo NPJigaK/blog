@@ -1,19 +1,19 @@
 ---
-pubDatetime: 2019-12-27T18:00:00.000Z
+pubDatetime: 2020-02-27T18:00:00.000Z
 title: 【PUBG】1部リーグのプロチームのアナリストを務めた体験記
 featured: true
 tags:
   - PUBG
-  - ゲームライフハック
-category: リモートワーク
-description: ああ
+  - 雑記
+category: ゲーム
+description: 1年ほど PUBG JAPAN SERIES Grade 1 に出場しているプロチームにアナリストとして加入していた当時の体験記。
 ---
 
 > [!note] **この記事は [`steins.gg`](<https://twitter.com/search?q=(steinsgg%20OR%20steins.gg%20OR%20%40SteinsGG)%20until%3A2021-01-01&f=live&src=typed_query>) から移行した記事です。**
 >
 > `.gg` ドメインの維持費が高いため `steins.gg` は閉鎖しました。
 
-半年ほど PUBG JAPAN SERIES Grade 1 に出場していプロチームに[アナリストとして加入](https://twitter.com/LagGaming_GG/status/1124252121451225088)してました。  
+1年ほど PUBG JAPAN SERIES Grade 1 に出場しているプロチームに[アナリストとして加入](https://twitter.com/LagGaming_GG/status/1124252121451225088)してました。  
 記録として当時の経験談を書いておこうと思います。
 
 ## 目次
@@ -35,7 +35,9 @@ description: ああ
 
 一日が終了したら、その日行われた全ラウンドの統計、そのシーズンで行われた全ラウンドの統計をまとめて共有・分析する。
 
-## 実績
+#### 大会実績
+私が出場したわけではないのですが。
+
 - PJS Season3 Phase1 Grade1 Day1 1位
 - PJS Season3 Phase1 Grade1 Day2 5位
 - PJS Season3 Phase1 Grade1 Day3 5位
