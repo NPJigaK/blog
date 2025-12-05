@@ -22,7 +22,7 @@
     "@tailwindcss/vite": "^4.1.11",
     "astro": "^5.15.3",
     "astro-static-link-preview": "^1.1.1",
-    "chalk": "^5.4.1",
+    "chalk": "^5.6.2",
     "dayjs": "^1.11.13",
     "glob": "^11.0.3",
     "gray-matter": "^4.0.3",
